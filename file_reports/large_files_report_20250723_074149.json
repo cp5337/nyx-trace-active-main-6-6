@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-07-23T07:41:49.032197",
+  "repository": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN",
+  "size_threshold_mb": 1.0,
+  "large_files": [
+    {
+      "path": "handoff_package/additional_resources/nyxtrace_project.zip",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/handoff_package/additional_resources/nyxtrace_project.zip",
+      "size_bytes": 2488538,
+      "size_mb": 2.37,
+      "extension": ".zip",
+      "modified": "2025-07-22T22:48:04.002711",
+      "hash": "c7a8cd38f7246a20"
+    }
+  ],
+  "analysis": {
+    "total_files": 1,
+    "total_size_bytes": 2488538,
+    "total_size_mb": 2.37,
+    "by_extension": {
+      ".zip": {
+        "count": 1,
+        "total_size": 2488538,
+        "files": [
+          "handoff_package/additional_resources/nyxtrace_project.zip"
+        ]
+      }
+    },
+    "by_directory": {
+      "handoff_package/additional_resources": {
+        "count": 1,
+        "total_size": 2488538,
+        "files": [
+          "handoff_package/additional_resources/nyxtrace_project.zip"
+        ]
+      }
+    },
+    "largest_files": [
+      {
+        "path": "handoff_package/additional_resources/nyxtrace_project.zip",
+        "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/handoff_package/additional_resources/nyxtrace_project.zip",
+        "size_bytes": 2488538,
+        "size_mb": 2.37,
+        "extension": ".zip",
+        "modified": "2025-07-22T22:48:04.002711",
+        "hash": "c7a8cd38f7246a20"
+      }
+    ]
+  },
+  "optimization": {
+    "processed": 1,
+    "compressed": 0,
+    "archived": 0,
+    "deleted": 0,
+    "total_saved_bytes": 0,
+    "actions": [
+      {
+        "file": "handoff_package/additional_resources/nyxtrace_project.zip",
+        "action": "keep",
+        "original_size": 2488538
+      }
+    ]
+  }
+}

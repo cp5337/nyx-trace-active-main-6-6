@@ -1,0 +1,33 @@
+{
+  "team_lead": {
+    "permissions": [
+      "manage_team",
+      "review_code",
+      "assign_tasks"
+    ],
+    "members": [
+      "Alice"
+    ]
+  },
+  "developer": {
+    "permissions": [
+      "write_code",
+      "run_tests",
+      "create_docs"
+    ],
+    "members": [
+      "Bob",
+      "Diana"
+    ]
+  },
+  "analyst": {
+    "permissions": [
+      "analyze_data",
+      "create_reports",
+      "review_security"
+    ],
+    "members": [
+      "Charlie"
+    ]
+  }
+}

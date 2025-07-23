@@ -1,0 +1,27 @@
+# CTAS Hook_folder - Processing Files
+# These files are automatically processed and should not be committed
+
+# Temporary processing files
+*.tmp
+*.temp
+*_processing*
+*_ctas_*
+
+# Processing output directories
+ProcessedCode/
+ProcessedDocuments/
+ProcessedArchives/
+
+# Log files
+*.log
+
+# Backup files created during processing
+*.bak
+*.backup
+
+# Keep the README
+!README.md
+!.gitignore
+
+# Allow processing of specific file types but ignore output
+# Processing pipeline will move files to appropriate locations

@@ -1,0 +1,1279 @@
+2025-07-23 07:06:56,161 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:06:56,161 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:06:56,161 - INFO - ================================================================================
+2025-07-23 07:06:56,161 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:06:56,161 - INFO - 🧪 Testing application startup...
+2025-07-23 07:06:56,186 - ERROR - ❌ Application startup failed: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import main; print("✅ Application imports successfully")
+    ^^^^^^^^^^^
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/main.py", line 9, in <module>
+    import streamlit as st
+ModuleNotFoundError: No module named 'streamlit'
+
+2025-07-23 07:06:56,186 - ERROR - ❌ Team A verification failed - cannot proceed
+2025-07-23 07:08:10,710 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:08:10,711 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:08:10,711 - INFO - ================================================================================
+2025-07-23 07:08:10,711 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:08:10,711 - INFO - 🧪 Testing application startup...
+2025-07-23 07:08:18,255 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:08:18,255 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:08:18,255 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:08:18,261 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:08:18,261 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:08:18,261 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:08:18,261 - INFO - Scanning for large files...
+2025-07-23 07:08:18,267 - INFO - Found 1 large files
+2025-07-23 07:08:18,267 - INFO - Analyzing file patterns...
+2025-07-23 07:08:18,267 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:08:18,267 - INFO - Generating large files report...
+2025-07-23 07:08:18,267 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070818.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070818.md
+2025-07-23 07:08:18,267 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070818.md
+2025-07-23 07:08:18,267 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:08:18,267 - INFO -    - Large files found: 1
+2025-07-23 07:08:18,267 - INFO -    - Total size: 2.37MB
+2025-07-23 07:08:18,267 - INFO -    - Files processed: 1
+2025-07-23 07:08:18,268 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:08:18,268 - INFO -    Found 1 large files
+2025-07-23 07:08:18,268 - INFO -    Total size: 2.37MB
+2025-07-23 07:08:18,268 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:08:18,268 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:08:18,268 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:08:18,283 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:08:18,283 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:08:18,284 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:08:18,284 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:18,284 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:08:18,284 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:18,284 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:08:18,284 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:18,284 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:08:18,284 - INFO -    Database operations tested with 1 records
+2025-07-23 07:08:18,284 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:08:18,285 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:18,285 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:18,285 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:18,285 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:18,285 - INFO - Created new connection for thread: 6116634624
+2025-07-23 07:08:18,285 - INFO - Created new connection for thread: 6133460992
+2025-07-23 07:08:18,285 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:18,285 - INFO - Created new connection for thread: 6167113728
+2025-07-23 07:08:18,285 - INFO - Created new connection for thread: 6150287360
+2025-07-23 07:08:18,285 - INFO - Created new connection for thread: 6183940096
+2025-07-23 07:08:18,285 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:18,285 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:18,285 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:18,285 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:18,285 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:18,286 - INFO - ✅ Thread safety test passed
+2025-07-23 07:08:18,286 - INFO - Closing all database connections...
+2025-07-23 07:08:18,286 - ERROR - ❌ Team C failed: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 6116634624 and this is thread id 8627658496.
+2025-07-23 07:08:18,286 - ERROR - ❌ Team C failed - stopping execution
+2025-07-23 07:08:41,726 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:08:41,726 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:08:41,726 - INFO - ================================================================================
+2025-07-23 07:08:41,726 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:08:41,726 - INFO - 🧪 Testing application startup...
+2025-07-23 07:08:42,115 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:08:42,115 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:08:42,115 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:08:42,120 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:08:42,120 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:08:42,120 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:08:42,120 - INFO - Scanning for large files...
+2025-07-23 07:08:42,124 - INFO - Found 1 large files
+2025-07-23 07:08:42,124 - INFO - Analyzing file patterns...
+2025-07-23 07:08:42,124 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:08:42,124 - INFO - Generating large files report...
+2025-07-23 07:08:42,124 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070842.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070842.md
+2025-07-23 07:08:42,124 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070842.md
+2025-07-23 07:08:42,124 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:08:42,124 - INFO -    - Large files found: 1
+2025-07-23 07:08:42,124 - INFO -    - Total size: 2.37MB
+2025-07-23 07:08:42,124 - INFO -    - Files processed: 1
+2025-07-23 07:08:42,124 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:08:42,124 - INFO -    Found 1 large files
+2025-07-23 07:08:42,124 - INFO -    Total size: 2.37MB
+2025-07-23 07:08:42,124 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:08:42,124 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:08:42,124 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:08:42,128 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:08:42,128 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:08:42,128 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:08:42,128 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:42,128 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:08:42,128 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:42,128 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:08:42,128 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:42,128 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:08:42,128 - INFO -    Database operations tested with 1 records
+2025-07-23 07:08:42,128 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:08:42,128 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:42,128 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:42,128 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:42,129 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:42,129 - INFO - Created new connection for thread: 6105313280
+2025-07-23 07:08:42,129 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:42,129 - INFO - Created new connection for thread: 6122139648
+2025-07-23 07:08:42,129 - INFO - Created new connection for thread: 6138966016
+2025-07-23 07:08:42,129 - INFO - Created new connection for thread: 6155792384
+2025-07-23 07:08:42,129 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:42,129 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:42,129 - INFO - Created new connection for thread: 6172618752
+2025-07-23 07:08:42,129 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:42,129 - INFO - Closing all database connections...
+2025-07-23 07:08:42,129 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:42,129 - INFO - Closing all database connections...
+2025-07-23 07:08:42,129 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:42,129 - INFO - Closing all database connections...
+2025-07-23 07:08:42,129 - INFO - Closed 0 connections for current thread
+2025-07-23 07:08:42,129 - INFO - Closing all database connections...
+2025-07-23 07:08:42,129 - INFO - Closed 0 connections for current thread
+2025-07-23 07:08:42,129 - INFO - Closing all database connections...
+2025-07-23 07:08:42,129 - INFO - Closed 0 connections for current thread
+2025-07-23 07:08:42,129 - INFO - Closed 0 connections for current thread
+2025-07-23 07:08:42,129 - INFO - Closed 0 connections for current thread
+2025-07-23 07:08:42,130 - INFO - ✅ Thread safety test passed
+2025-07-23 07:08:42,130 - INFO - Closing all database connections...
+2025-07-23 07:08:42,130 - INFO - Closed 0 connections for current thread
+2025-07-23 07:08:42,130 - INFO - 🚀 Running Team D: Organization Management
+2025-07-23 07:08:42,131 - INFO - Loaded roles from team_d_roles.json.
+2025-07-23 07:08:42,131 - INFO - Organization Manager initialized.
+2025-07-23 07:08:42,131 - WARNING - Role 'team_lead' already exists.
+2025-07-23 07:08:42,131 - WARNING - Role 'developer' already exists.
+2025-07-23 07:08:42,131 - WARNING - Role 'analyst' already exists.
+2025-07-23 07:08:42,131 - WARNING - Member 'Alice' is already in role 'team_lead'.
+2025-07-23 07:08:42,131 - WARNING - Member 'Bob' is already in role 'developer'.
+2025-07-23 07:08:42,131 - WARNING - Member 'Charlie' is already in role 'analyst'.
+2025-07-23 07:08:42,131 - WARNING - Member 'Diana' is already in role 'developer'.
+2025-07-23 07:08:42,131 - INFO - ✅ Team D completed successfully!
+2025-07-23 07:08:42,131 - INFO -    Created 3 organizational roles: team_lead, developer, analyst
+2025-07-23 07:08:42,131 - INFO - 🧪 Testing code standards...
+2025-07-23 07:08:42,134 - INFO - Initialized Code Standards Checker for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:08:42,134 - INFO - Standards: 80 chars, 15.0% comments, 300 lines max
+2025-07-23 07:08:42,134 - INFO - 🔍 Checking repository code standards...
+2025-07-23 07:08:42,208 - INFO - Found 212 Python files to analyze
+2025-07-23 07:08:42,581 - INFO - ✅ Code standards analysis complete
+2025-07-23 07:08:42,581 - INFO -    Overall compliance: 20.3%
+2025-07-23 07:08:42,581 - INFO -    Compliant files: 43/212
+2025-07-23 07:08:42,581 - ERROR - ❌ Team D failed: 'compliance_rate'
+2025-07-23 07:08:42,582 - ERROR - ❌ Team D failed - stopping execution
+2025-07-23 07:08:55,151 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:08:55,151 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:08:55,151 - INFO - ================================================================================
+2025-07-23 07:08:55,151 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:08:55,151 - INFO - 🧪 Testing application startup...
+2025-07-23 07:08:55,543 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:08:55,543 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:08:55,543 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:08:55,548 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:08:55,548 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:08:55,548 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:08:55,548 - INFO - Scanning for large files...
+2025-07-23 07:08:55,552 - INFO - Found 1 large files
+2025-07-23 07:08:55,552 - INFO - Analyzing file patterns...
+2025-07-23 07:08:55,552 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:08:55,552 - INFO - Generating large files report...
+2025-07-23 07:08:55,553 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070855.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070855.md
+2025-07-23 07:08:55,553 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070855.md
+2025-07-23 07:08:55,553 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:08:55,553 - INFO -    - Large files found: 1
+2025-07-23 07:08:55,553 - INFO -    - Total size: 2.37MB
+2025-07-23 07:08:55,553 - INFO -    - Files processed: 1
+2025-07-23 07:08:55,553 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:08:55,553 - INFO -    Found 1 large files
+2025-07-23 07:08:55,553 - INFO -    Total size: 2.37MB
+2025-07-23 07:08:55,553 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:08:55,553 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:08:55,553 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:08:55,554 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:08:55,554 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:08:55,554 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:08:55,554 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:55,555 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:08:55,555 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:55,555 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:08:55,555 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:55,555 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:08:55,555 - INFO -    Database operations tested with 1 records
+2025-07-23 07:08:55,555 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:08:55,555 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:55,555 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:55,555 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:55,555 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:55,556 - INFO - Created new connection for thread: 6183694336
+2025-07-23 07:08:55,556 - INFO - Created new connection for thread: 6200520704
+2025-07-23 07:08:55,556 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:08:55,556 - INFO - Created new connection for thread: 6217347072
+2025-07-23 07:08:55,556 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:55,556 - INFO - Closing all database connections...
+2025-07-23 07:08:55,556 - INFO - Created new connection for thread: 6234173440
+2025-07-23 07:08:55,556 - INFO - Created new connection for thread: 6250999808
+2025-07-23 07:08:55,556 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:55,556 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:55,556 - INFO - Closed 0 connections for current thread
+2025-07-23 07:08:55,556 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:55,556 - INFO - Closing all database connections...
+2025-07-23 07:08:55,556 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:08:55,556 - INFO - Closing all database connections...
+2025-07-23 07:08:55,556 - INFO - Closing all database connections...
+2025-07-23 07:08:55,556 - INFO - Closed 0 connections for current thread
+2025-07-23 07:08:55,556 - INFO - Closing all database connections...
+2025-07-23 07:08:55,556 - INFO - Closed 0 connections for current thread
+2025-07-23 07:08:55,556 - INFO - Closed 0 connections for current thread
+2025-07-23 07:08:55,556 - INFO - Closed 0 connections for current thread
+2025-07-23 07:08:55,556 - INFO - ✅ Thread safety test passed
+2025-07-23 07:08:55,557 - INFO - Closing all database connections...
+2025-07-23 07:08:55,557 - INFO - Closed 0 connections for current thread
+2025-07-23 07:08:55,557 - INFO - 🚀 Running Team D: Organization Management
+2025-07-23 07:08:55,557 - INFO - Loaded roles from team_d_roles.json.
+2025-07-23 07:08:55,557 - INFO - Organization Manager initialized.
+2025-07-23 07:08:55,557 - WARNING - Role 'team_lead' already exists.
+2025-07-23 07:08:55,557 - WARNING - Role 'developer' already exists.
+2025-07-23 07:08:55,557 - WARNING - Role 'analyst' already exists.
+2025-07-23 07:08:55,557 - WARNING - Member 'Alice' is already in role 'team_lead'.
+2025-07-23 07:08:55,557 - WARNING - Member 'Bob' is already in role 'developer'.
+2025-07-23 07:08:55,557 - WARNING - Member 'Charlie' is already in role 'analyst'.
+2025-07-23 07:08:55,557 - WARNING - Member 'Diana' is already in role 'developer'.
+2025-07-23 07:08:55,557 - INFO - ✅ Team D completed successfully!
+2025-07-23 07:08:55,557 - INFO -    Created 3 organizational roles: team_lead, developer, analyst
+2025-07-23 07:08:55,557 - INFO - 🧪 Testing code standards...
+2025-07-23 07:08:55,560 - INFO - Initialized Code Standards Checker for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:08:55,560 - INFO - Standards: 80 chars, 15.0% comments, 300 lines max
+2025-07-23 07:08:55,560 - INFO - 🔍 Checking repository code standards...
+2025-07-23 07:08:55,618 - INFO - Found 212 Python files to analyze
+2025-07-23 07:08:55,965 - INFO - ✅ Code standards analysis complete
+2025-07-23 07:08:55,965 - INFO -    Overall compliance: 20.3%
+2025-07-23 07:08:55,965 - INFO -    Compliant files: 43/212
+2025-07-23 07:08:55,965 - ERROR - ❌ Team D failed: 'compliance_rate'
+2025-07-23 07:08:55,966 - ERROR - ❌ Team D failed - stopping execution
+2025-07-23 07:09:21,596 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:09:21,596 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:09:21,596 - INFO - ================================================================================
+2025-07-23 07:09:21,596 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:09:21,596 - INFO - 🧪 Testing application startup...
+2025-07-23 07:09:22,052 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:09:22,052 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:09:22,052 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:09:22,057 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:09:22,057 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:09:22,057 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:09:22,057 - INFO - Scanning for large files...
+2025-07-23 07:09:22,061 - INFO - Found 1 large files
+2025-07-23 07:09:22,061 - INFO - Analyzing file patterns...
+2025-07-23 07:09:22,061 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:09:22,061 - INFO - Generating large files report...
+2025-07-23 07:09:22,061 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070922.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070922.md
+2025-07-23 07:09:22,061 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070922.md
+2025-07-23 07:09:22,061 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:09:22,061 - INFO -    - Large files found: 1
+2025-07-23 07:09:22,061 - INFO -    - Total size: 2.37MB
+2025-07-23 07:09:22,061 - INFO -    - Files processed: 1
+2025-07-23 07:09:22,061 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:09:22,061 - INFO -    Found 1 large files
+2025-07-23 07:09:22,061 - INFO -    Total size: 2.37MB
+2025-07-23 07:09:22,061 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:09:22,061 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:09:22,061 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:09:22,063 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:09:22,063 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:09:22,064 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:09:22,064 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:22,064 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:09:22,064 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:22,064 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:09:22,064 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:22,064 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:09:22,064 - INFO -    Database operations tested with 1 records
+2025-07-23 07:09:22,064 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:09:22,064 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:22,064 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:22,064 - INFO - Created new connection for thread: 6111719424
+2025-07-23 07:09:22,064 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:22,064 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:22,064 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:22,065 - INFO - Created new connection for thread: 6128545792
+2025-07-23 07:09:22,065 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:22,065 - INFO - Closing all database connections...
+2025-07-23 07:09:22,065 - INFO - Created new connection for thread: 6145372160
+2025-07-23 07:09:22,065 - INFO - Created new connection for thread: 6162198528
+2025-07-23 07:09:22,065 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:22,065 - INFO - Created new connection for thread: 6179024896
+2025-07-23 07:09:22,065 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:22,065 - INFO - Closing all database connections...
+2025-07-23 07:09:22,065 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:22,065 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:22,065 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:22,065 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:22,065 - INFO - Closing all database connections...
+2025-07-23 07:09:22,065 - INFO - Closing all database connections...
+2025-07-23 07:09:22,065 - INFO - Closing all database connections...
+2025-07-23 07:09:22,065 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:22,065 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:22,065 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:22,065 - INFO - ✅ Thread safety test passed
+2025-07-23 07:09:22,065 - INFO - Closing all database connections...
+2025-07-23 07:09:22,066 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:22,066 - INFO - 🚀 Running Team D: Organization Management
+2025-07-23 07:09:22,066 - INFO - Loaded roles from team_d_roles.json.
+2025-07-23 07:09:22,066 - INFO - Organization Manager initialized.
+2025-07-23 07:09:22,066 - WARNING - Role 'team_lead' already exists.
+2025-07-23 07:09:22,066 - WARNING - Role 'developer' already exists.
+2025-07-23 07:09:22,066 - WARNING - Role 'analyst' already exists.
+2025-07-23 07:09:22,066 - WARNING - Member 'Alice' is already in role 'team_lead'.
+2025-07-23 07:09:22,066 - WARNING - Member 'Bob' is already in role 'developer'.
+2025-07-23 07:09:22,066 - WARNING - Member 'Charlie' is already in role 'analyst'.
+2025-07-23 07:09:22,066 - WARNING - Member 'Diana' is already in role 'developer'.
+2025-07-23 07:09:22,066 - INFO - ✅ Team D completed successfully!
+2025-07-23 07:09:22,066 - INFO -    Created 3 organizational roles: team_lead, developer, analyst
+2025-07-23 07:09:22,066 - INFO - 🧪 Testing code standards...
+2025-07-23 07:09:22,070 - INFO - Initialized Code Standards Checker for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:09:22,070 - INFO - Standards: 80 chars, 15.0% comments, 300 lines max
+2025-07-23 07:09:22,070 - INFO - 🔍 Checking repository code standards...
+2025-07-23 07:09:22,140 - INFO - Found 212 Python files to analyze
+2025-07-23 07:09:22,489 - INFO - ✅ Code standards analysis complete
+2025-07-23 07:09:22,489 - INFO -    Overall compliance: 20.3%
+2025-07-23 07:09:22,489 - INFO -    Compliant files: 43/212
+2025-07-23 07:09:22,489 - ERROR - ❌ Team D failed: 'compliance_rate'
+2025-07-23 07:09:22,490 - ERROR - ❌ Team D failed - stopping execution
+2025-07-23 07:09:41,070 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:09:41,071 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:09:41,071 - INFO - ================================================================================
+2025-07-23 07:09:41,071 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:09:41,071 - INFO - 🧪 Testing application startup...
+2025-07-23 07:09:41,466 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:09:41,466 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:09:41,466 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:09:41,471 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:09:41,471 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:09:41,471 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:09:41,471 - INFO - Scanning for large files...
+2025-07-23 07:09:41,475 - INFO - Found 1 large files
+2025-07-23 07:09:41,475 - INFO - Analyzing file patterns...
+2025-07-23 07:09:41,475 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:09:41,475 - INFO - Generating large files report...
+2025-07-23 07:09:41,475 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070941.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070941.md
+2025-07-23 07:09:41,475 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070941.md
+2025-07-23 07:09:41,475 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:09:41,475 - INFO -    - Large files found: 1
+2025-07-23 07:09:41,475 - INFO -    - Total size: 2.37MB
+2025-07-23 07:09:41,475 - INFO -    - Files processed: 1
+2025-07-23 07:09:41,475 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:09:41,475 - INFO -    Found 1 large files
+2025-07-23 07:09:41,475 - INFO -    Total size: 2.37MB
+2025-07-23 07:09:41,475 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:09:41,475 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:09:41,475 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:09:41,477 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:09:41,477 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:09:41,477 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:09:41,477 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:41,477 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:09:41,478 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:41,478 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:09:41,478 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:41,478 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:09:41,478 - INFO -    Database operations tested with 1 records
+2025-07-23 07:09:41,478 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:09:41,478 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:41,478 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:41,478 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:41,478 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:41,478 - INFO - Created new connection for thread: 6149664768
+2025-07-23 07:09:41,478 - INFO - Created new connection for thread: 6166491136
+2025-07-23 07:09:41,478 - INFO - Created new connection for thread: 6183317504
+2025-07-23 07:09:41,478 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:41,478 - INFO - Created new connection for thread: 6200143872
+2025-07-23 07:09:41,478 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:41,478 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:41,478 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:41,478 - INFO - Created new connection for thread: 6216970240
+2025-07-23 07:09:41,478 - INFO - Closing all database connections...
+2025-07-23 07:09:41,478 - INFO - Closing all database connections...
+2025-07-23 07:09:41,479 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:41,479 - INFO - Closing all database connections...
+2025-07-23 07:09:41,479 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:41,479 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:41,479 - INFO - Closing all database connections...
+2025-07-23 07:09:41,479 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:41,479 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:41,479 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:41,479 - INFO - Closing all database connections...
+2025-07-23 07:09:41,479 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:41,479 - INFO - ✅ Thread safety test passed
+2025-07-23 07:09:41,479 - INFO - Closing all database connections...
+2025-07-23 07:09:41,479 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:41,479 - INFO - 🚀 Running Team D: Organization Management
+2025-07-23 07:09:41,479 - INFO - Loaded roles from team_d_roles.json.
+2025-07-23 07:09:41,479 - INFO - Organization Manager initialized.
+2025-07-23 07:09:41,479 - WARNING - Role 'team_lead' already exists.
+2025-07-23 07:09:41,479 - WARNING - Role 'developer' already exists.
+2025-07-23 07:09:41,479 - WARNING - Role 'analyst' already exists.
+2025-07-23 07:09:41,479 - WARNING - Member 'Alice' is already in role 'team_lead'.
+2025-07-23 07:09:41,479 - WARNING - Member 'Bob' is already in role 'developer'.
+2025-07-23 07:09:41,479 - WARNING - Member 'Charlie' is already in role 'analyst'.
+2025-07-23 07:09:41,479 - WARNING - Member 'Diana' is already in role 'developer'.
+2025-07-23 07:09:41,479 - INFO - ✅ Team D completed successfully!
+2025-07-23 07:09:41,479 - INFO -    Created 3 organizational roles: team_lead, developer, analyst
+2025-07-23 07:09:41,479 - INFO - 🧪 Testing code standards...
+2025-07-23 07:09:41,483 - INFO - Initialized Code Standards Checker for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:09:41,483 - INFO - Standards: 80 chars, 15.0% comments, 300 lines max
+2025-07-23 07:09:41,483 - INFO - 🔍 Checking repository code standards...
+2025-07-23 07:09:41,544 - INFO - Found 212 Python files to analyze
+2025-07-23 07:09:41,909 - INFO - ✅ Code standards analysis complete
+2025-07-23 07:09:41,909 - INFO -    Overall compliance: 20.3%
+2025-07-23 07:09:41,909 - INFO -    Compliant files: 43/212
+2025-07-23 07:09:41,909 - ERROR - ❌ Team D failed: 'compliance_rate'
+2025-07-23 07:09:41,910 - ERROR - ❌ Team D failed - stopping execution
+2025-07-23 07:09:58,327 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:09:58,328 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:09:58,328 - INFO - ================================================================================
+2025-07-23 07:09:58,328 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:09:58,328 - INFO - 🧪 Testing application startup...
+2025-07-23 07:09:58,713 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:09:58,713 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:09:58,713 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:09:58,718 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:09:58,718 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:09:58,718 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:09:58,718 - INFO - Scanning for large files...
+2025-07-23 07:09:58,722 - INFO - Found 1 large files
+2025-07-23 07:09:58,722 - INFO - Analyzing file patterns...
+2025-07-23 07:09:58,722 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:09:58,722 - INFO - Generating large files report...
+2025-07-23 07:09:58,722 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070958.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070958.md
+2025-07-23 07:09:58,722 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_070958.md
+2025-07-23 07:09:58,723 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:09:58,723 - INFO -    - Large files found: 1
+2025-07-23 07:09:58,723 - INFO -    - Total size: 2.37MB
+2025-07-23 07:09:58,723 - INFO -    - Files processed: 1
+2025-07-23 07:09:58,723 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:09:58,723 - INFO -    Found 1 large files
+2025-07-23 07:09:58,723 - INFO -    Total size: 2.37MB
+2025-07-23 07:09:58,723 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:09:58,723 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:09:58,723 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:09:58,724 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:09:58,724 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:09:58,724 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:09:58,725 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:58,725 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:09:58,725 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:58,725 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:09:58,725 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:58,725 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:09:58,726 - INFO -    Database operations tested with 1 records
+2025-07-23 07:09:58,726 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:09:58,726 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:58,726 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:58,726 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:58,726 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:58,726 - INFO - Created new connection for thread: 6150828032
+2025-07-23 07:09:58,726 - INFO - Created new connection for thread: 6167654400
+2025-07-23 07:09:58,726 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:09:58,726 - INFO - Created new connection for thread: 6184480768
+2025-07-23 07:09:58,726 - INFO - Created new connection for thread: 6201307136
+2025-07-23 07:09:58,726 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:58,726 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:58,726 - INFO - Created new connection for thread: 6218133504
+2025-07-23 07:09:58,726 - INFO - Closing all database connections...
+2025-07-23 07:09:58,726 - INFO - Closing all database connections...
+2025-07-23 07:09:58,726 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:58,726 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:58,726 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:58,726 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:58,726 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:09:58,726 - INFO - Closing all database connections...
+2025-07-23 07:09:58,727 - INFO - Closing all database connections...
+2025-07-23 07:09:58,727 - INFO - Closing all database connections...
+2025-07-23 07:09:58,727 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:58,727 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:58,727 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:58,727 - INFO - ✅ Thread safety test passed
+2025-07-23 07:09:58,727 - INFO - Closing all database connections...
+2025-07-23 07:09:58,727 - INFO - Closed 0 connections for current thread
+2025-07-23 07:09:58,727 - INFO - 🚀 Running Team D: Organization Management
+2025-07-23 07:09:58,727 - INFO - Loaded roles from team_d_roles.json.
+2025-07-23 07:09:58,727 - INFO - Organization Manager initialized.
+2025-07-23 07:09:58,727 - WARNING - Role 'team_lead' already exists.
+2025-07-23 07:09:58,727 - WARNING - Role 'developer' already exists.
+2025-07-23 07:09:58,727 - WARNING - Role 'analyst' already exists.
+2025-07-23 07:09:58,727 - WARNING - Member 'Alice' is already in role 'team_lead'.
+2025-07-23 07:09:58,727 - WARNING - Member 'Bob' is already in role 'developer'.
+2025-07-23 07:09:58,727 - WARNING - Member 'Charlie' is already in role 'analyst'.
+2025-07-23 07:09:58,727 - WARNING - Member 'Diana' is already in role 'developer'.
+2025-07-23 07:09:58,727 - INFO - ✅ Team D completed successfully!
+2025-07-23 07:09:58,727 - INFO -    Created 3 organizational roles: team_lead, developer, analyst
+2025-07-23 07:09:58,727 - INFO - 🧪 Testing code standards...
+2025-07-23 07:09:58,729 - INFO - Initialized Code Standards Checker for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:09:58,729 - INFO - Standards: 80 chars, 15.0% comments, 300 lines max
+2025-07-23 07:09:58,729 - INFO - 🔍 Checking repository code standards...
+2025-07-23 07:09:58,797 - INFO - Found 212 Python files to analyze
+2025-07-23 07:09:59,143 - INFO - ✅ Code standards analysis complete
+2025-07-23 07:09:59,144 - INFO -    Overall compliance: 20.3%
+2025-07-23 07:09:59,144 - INFO -    Compliant files: 43/212
+2025-07-23 07:09:59,144 - INFO -    Code standards: 20.3% compliant
+2025-07-23 07:09:59,144 - INFO - 🧪 Running System Integration Test
+2025-07-23 07:09:59,144 - INFO -    Testing application startup...
+2025-07-23 07:09:59,521 - INFO -    Testing database connectivity...
+2025-07-23 07:10:00,830 - INFO -    Testing HTML rendering...
+2025-07-23 07:10:00,986 - INFO -    Testing core modules...
+2025-07-23 07:10:01,276 - ERROR - ❌ Core module core.geospatial failed: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import core.geospatial; print(f"✅ core.geospatial imports")
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/geospatial/__init__.py", line 27, in <module>
+    from .base_maps import (
+    ...<5 lines>...
+    )
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/geospatial/base_maps.py", line 26, in <module>
+    import folium
+ModuleNotFoundError: No module named 'folium'
+
+2025-07-23 07:10:01,276 - ERROR - ❌ System integration test failed
+2025-07-23 07:10:26,700 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:10:26,700 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:10:26,700 - INFO - ================================================================================
+2025-07-23 07:10:26,700 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:10:26,700 - INFO - 🧪 Testing application startup...
+2025-07-23 07:10:27,361 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:10:27,361 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:10:27,361 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:10:27,368 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:10:27,368 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:10:27,368 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:10:27,368 - INFO - Scanning for large files...
+2025-07-23 07:10:27,374 - INFO - Found 1 large files
+2025-07-23 07:10:27,374 - INFO - Analyzing file patterns...
+2025-07-23 07:10:27,374 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:10:27,374 - INFO - Generating large files report...
+2025-07-23 07:10:27,374 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071027.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071027.md
+2025-07-23 07:10:27,374 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071027.md
+2025-07-23 07:10:27,374 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:10:27,374 - INFO -    - Large files found: 1
+2025-07-23 07:10:27,374 - INFO -    - Total size: 2.37MB
+2025-07-23 07:10:27,374 - INFO -    - Files processed: 1
+2025-07-23 07:10:27,374 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:10:27,374 - INFO -    Found 1 large files
+2025-07-23 07:10:27,374 - INFO -    Total size: 2.37MB
+2025-07-23 07:10:27,374 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:10:27,374 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:10:27,374 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:10:27,379 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:10:27,379 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:10:27,380 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:10:27,382 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:27,382 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:10:27,382 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:27,382 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:10:27,382 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:27,382 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:10:27,382 - INFO -    Database operations tested with 1 records
+2025-07-23 07:10:27,382 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:10:27,382 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:10:27,382 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:10:27,383 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:10:27,383 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:10:27,383 - INFO - Created new connection for thread: 6145372160
+2025-07-23 07:10:27,383 - INFO - Created new connection for thread: 6162198528
+2025-07-23 07:10:27,383 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:10:27,383 - INFO - Created new connection for thread: 6179024896
+2025-07-23 07:10:27,383 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:27,383 - INFO - Created new connection for thread: 6195851264
+2025-07-23 07:10:27,383 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:27,383 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:27,383 - INFO - Created new connection for thread: 6212677632
+2025-07-23 07:10:27,383 - INFO - Closing all database connections...
+2025-07-23 07:10:27,383 - INFO - Closing all database connections...
+2025-07-23 07:10:27,383 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:27,383 - INFO - Closing all database connections...
+2025-07-23 07:10:27,383 - INFO - Closed 0 connections for current thread
+2025-07-23 07:10:27,383 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:27,383 - INFO - Closed 0 connections for current thread
+2025-07-23 07:10:27,383 - INFO - Closing all database connections...
+2025-07-23 07:10:27,383 - INFO - Closed 0 connections for current thread
+2025-07-23 07:10:27,383 - INFO - Closing all database connections...
+2025-07-23 07:10:27,383 - INFO - Closed 0 connections for current thread
+2025-07-23 07:10:27,383 - INFO - Closed 0 connections for current thread
+2025-07-23 07:10:27,384 - INFO - ✅ Thread safety test passed
+2025-07-23 07:10:27,384 - INFO - Closing all database connections...
+2025-07-23 07:10:27,384 - INFO - Closed 0 connections for current thread
+2025-07-23 07:10:27,384 - INFO - 🚀 Running Team D: Organization Management
+2025-07-23 07:10:27,384 - INFO - Loaded roles from team_d_roles.json.
+2025-07-23 07:10:27,384 - INFO - Organization Manager initialized.
+2025-07-23 07:10:27,384 - WARNING - Role 'team_lead' already exists.
+2025-07-23 07:10:27,384 - WARNING - Role 'developer' already exists.
+2025-07-23 07:10:27,384 - WARNING - Role 'analyst' already exists.
+2025-07-23 07:10:27,385 - WARNING - Member 'Alice' is already in role 'team_lead'.
+2025-07-23 07:10:27,385 - WARNING - Member 'Bob' is already in role 'developer'.
+2025-07-23 07:10:27,385 - WARNING - Member 'Charlie' is already in role 'analyst'.
+2025-07-23 07:10:27,385 - WARNING - Member 'Diana' is already in role 'developer'.
+2025-07-23 07:10:27,385 - INFO - ✅ Team D completed successfully!
+2025-07-23 07:10:27,385 - INFO -    Created 3 organizational roles: team_lead, developer, analyst
+2025-07-23 07:10:27,385 - INFO - 🧪 Testing code standards...
+2025-07-23 07:10:27,386 - INFO - Initialized Code Standards Checker for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:10:27,386 - INFO - Standards: 80 chars, 15.0% comments, 300 lines max
+2025-07-23 07:10:27,386 - INFO - 🔍 Checking repository code standards...
+2025-07-23 07:10:27,461 - INFO - Found 212 Python files to analyze
+2025-07-23 07:10:27,848 - INFO - ✅ Code standards analysis complete
+2025-07-23 07:10:27,848 - INFO -    Overall compliance: 20.3%
+2025-07-23 07:10:27,848 - INFO -    Compliant files: 43/212
+2025-07-23 07:10:27,848 - INFO -    Code standards: 20.3% compliant
+2025-07-23 07:10:27,848 - INFO - 🧪 Running System Integration Test
+2025-07-23 07:10:27,848 - INFO -    Testing application startup...
+2025-07-23 07:10:28,223 - INFO -    Testing database connectivity...
+2025-07-23 07:10:28,723 - INFO -    Testing HTML rendering...
+2025-07-23 07:10:28,890 - INFO -    Testing core modules...
+2025-07-23 07:10:31,983 - ERROR - ❌ Core module core.geospatial failed: ERROR:root:Failed to import plugin_base. Plugin system unavailable.
+WARNING:core.plugin_loader:Plugin manager is not available. Plugin system will be disabled.
+2025-07-23 07:10:31.910 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2025-07-23 07:10:31.911 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2025-07-23 07:10:31.911 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import core.geospatial; print(f"✅ core.geospatial imports")
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/geospatial/__init__.py", line 65, in <module>
+    from .visualizers import (
+    ...<6 lines>...
+    )
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/geospatial/visualizers/__init__.py", line 28, in <module>
+    from .networks import create_network_graph
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/geospatial/visualizers/networks.py", line 28, in <module>
+    import networkx as nx
+ModuleNotFoundError: No module named 'networkx'
+
+2025-07-23 07:10:31,983 - ERROR - ❌ System integration test failed
+2025-07-23 07:10:58,601 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:10:58,601 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:10:58,601 - INFO - ================================================================================
+2025-07-23 07:10:58,601 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:10:58,601 - INFO - 🧪 Testing application startup...
+2025-07-23 07:10:59,215 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:10:59,215 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:10:59,215 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:10:59,221 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:10:59,221 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:10:59,221 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:10:59,221 - INFO - Scanning for large files...
+2025-07-23 07:10:59,226 - INFO - Found 1 large files
+2025-07-23 07:10:59,226 - INFO - Analyzing file patterns...
+2025-07-23 07:10:59,226 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:10:59,226 - INFO - Generating large files report...
+2025-07-23 07:10:59,227 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071059.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071059.md
+2025-07-23 07:10:59,227 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071059.md
+2025-07-23 07:10:59,227 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:10:59,227 - INFO -    - Large files found: 1
+2025-07-23 07:10:59,227 - INFO -    - Total size: 2.37MB
+2025-07-23 07:10:59,227 - INFO -    - Files processed: 1
+2025-07-23 07:10:59,227 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:10:59,227 - INFO -    Found 1 large files
+2025-07-23 07:10:59,227 - INFO -    Total size: 2.37MB
+2025-07-23 07:10:59,227 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:10:59,227 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:10:59,227 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:10:59,231 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:10:59,231 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:10:59,232 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:10:59,233 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:59,233 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:10:59,233 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:59,233 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:10:59,233 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:59,233 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:10:59,233 - INFO -    Database operations tested with 1 records
+2025-07-23 07:10:59,233 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:10:59,233 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:10:59,233 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:10:59,233 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:10:59,233 - INFO - Created new connection for thread: 6187495424
+2025-07-23 07:10:59,234 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:10:59,234 - INFO - Created new connection for thread: 6204321792
+2025-07-23 07:10:59,234 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:10:59,234 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:59,234 - INFO - Created new connection for thread: 6237974528
+2025-07-23 07:10:59,234 - INFO - Closing all database connections...
+2025-07-23 07:10:59,234 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:59,234 - INFO - Closed 0 connections for current thread
+2025-07-23 07:10:59,234 - INFO - Created new connection for thread: 6221148160
+2025-07-23 07:10:59,234 - INFO - Created new connection for thread: 6254800896
+2025-07-23 07:10:59,234 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:59,234 - INFO - Closing all database connections...
+2025-07-23 07:10:59,234 - INFO - Closing all database connections...
+2025-07-23 07:10:59,234 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:59,234 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:10:59,234 - INFO - Closed 0 connections for current thread
+2025-07-23 07:10:59,234 - INFO - Closed 0 connections for current thread
+2025-07-23 07:10:59,234 - INFO - Closing all database connections...
+2025-07-23 07:10:59,234 - INFO - Closing all database connections...
+2025-07-23 07:10:59,234 - INFO - Closed 0 connections for current thread
+2025-07-23 07:10:59,234 - INFO - Closed 0 connections for current thread
+2025-07-23 07:10:59,234 - INFO - ✅ Thread safety test passed
+2025-07-23 07:10:59,234 - INFO - Closing all database connections...
+2025-07-23 07:10:59,234 - INFO - Closed 0 connections for current thread
+2025-07-23 07:10:59,234 - INFO - 🚀 Running Team D: Organization Management
+2025-07-23 07:10:59,235 - INFO - Loaded roles from team_d_roles.json.
+2025-07-23 07:10:59,235 - INFO - Organization Manager initialized.
+2025-07-23 07:10:59,235 - WARNING - Role 'team_lead' already exists.
+2025-07-23 07:10:59,235 - WARNING - Role 'developer' already exists.
+2025-07-23 07:10:59,235 - WARNING - Role 'analyst' already exists.
+2025-07-23 07:10:59,235 - WARNING - Member 'Alice' is already in role 'team_lead'.
+2025-07-23 07:10:59,235 - WARNING - Member 'Bob' is already in role 'developer'.
+2025-07-23 07:10:59,235 - WARNING - Member 'Charlie' is already in role 'analyst'.
+2025-07-23 07:10:59,235 - WARNING - Member 'Diana' is already in role 'developer'.
+2025-07-23 07:10:59,235 - INFO - ✅ Team D completed successfully!
+2025-07-23 07:10:59,235 - INFO -    Created 3 organizational roles: team_lead, developer, analyst
+2025-07-23 07:10:59,235 - INFO - 🧪 Testing code standards...
+2025-07-23 07:10:59,237 - INFO - Initialized Code Standards Checker for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:10:59,237 - INFO - Standards: 80 chars, 15.0% comments, 300 lines max
+2025-07-23 07:10:59,237 - INFO - 🔍 Checking repository code standards...
+2025-07-23 07:10:59,314 - INFO - Found 212 Python files to analyze
+2025-07-23 07:10:59,697 - INFO - ✅ Code standards analysis complete
+2025-07-23 07:10:59,697 - INFO -    Overall compliance: 20.3%
+2025-07-23 07:10:59,697 - INFO -    Compliant files: 43/212
+2025-07-23 07:10:59,698 - INFO -    Code standards: 20.3% compliant
+2025-07-23 07:10:59,698 - INFO - 🧪 Running System Integration Test
+2025-07-23 07:10:59,698 - INFO -    Testing application startup...
+2025-07-23 07:11:00,072 - INFO -    Testing database connectivity...
+2025-07-23 07:11:00,564 - INFO -    Testing HTML rendering...
+2025-07-23 07:11:00,715 - INFO -    Testing core modules...
+2025-07-23 07:11:01,740 - ERROR - ❌ Core module core.cyberwarfare failed: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import core.cyberwarfare; print(f"✅ core.cyberwarfare imports")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/cyberwarfare/__init__.py", line 47, in <module>
+    from .tool_scraper import ToolScraper, ToolInfo, ScraperResult
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/cyberwarfare/tool_scraper.py", line 36, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+
+2025-07-23 07:11:01,740 - ERROR - ❌ System integration test failed
+2025-07-23 07:11:23,998 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:11:23,998 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:11:23,998 - INFO - ================================================================================
+2025-07-23 07:11:23,998 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:11:23,998 - INFO - 🧪 Testing application startup...
+2025-07-23 07:11:24,379 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:11:24,379 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:11:24,379 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:11:24,385 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:11:24,385 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:11:24,385 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:11:24,385 - INFO - Scanning for large files...
+2025-07-23 07:11:24,390 - INFO - Found 1 large files
+2025-07-23 07:11:24,390 - INFO - Analyzing file patterns...
+2025-07-23 07:11:24,390 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:11:24,390 - INFO - Generating large files report...
+2025-07-23 07:11:24,390 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071124.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071124.md
+2025-07-23 07:11:24,390 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071124.md
+2025-07-23 07:11:24,390 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:11:24,390 - INFO -    - Large files found: 1
+2025-07-23 07:11:24,390 - INFO -    - Total size: 2.37MB
+2025-07-23 07:11:24,390 - INFO -    - Files processed: 1
+2025-07-23 07:11:24,390 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:11:24,390 - INFO -    Found 1 large files
+2025-07-23 07:11:24,390 - INFO -    Total size: 2.37MB
+2025-07-23 07:11:24,390 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:11:24,390 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:11:24,390 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:11:24,392 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:11:24,392 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:11:24,392 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:11:24,392 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:11:24,392 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:11:24,392 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:11:24,392 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:11:24,392 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:11:24,392 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:11:24,392 - INFO -    Database operations tested with 1 records
+2025-07-23 07:11:24,392 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:11:24,392 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:11:24,392 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:11:24,393 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:11:24,393 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:11:24,393 - INFO - Created new connection for thread: 6117502976
+2025-07-23 07:11:24,393 - INFO - Created new connection for thread: 6134329344
+2025-07-23 07:11:24,393 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:11:24,393 - INFO - Created new connection for thread: 6151155712
+2025-07-23 07:11:24,393 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:11:24,393 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:11:24,393 - INFO - Closing all database connections...
+2025-07-23 07:11:24,393 - INFO - Created new connection for thread: 6184808448
+2025-07-23 07:11:24,393 - INFO - Created new connection for thread: 6167982080
+2025-07-23 07:11:24,393 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:11:24,393 - INFO - Closing all database connections...
+2025-07-23 07:11:24,393 - INFO - Closed 0 connections for current thread
+2025-07-23 07:11:24,393 - INFO - Closing all database connections...
+2025-07-23 07:11:24,393 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:11:24,393 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:11:24,393 - INFO - Closed 0 connections for current thread
+2025-07-23 07:11:24,393 - INFO - Closed 0 connections for current thread
+2025-07-23 07:11:24,393 - INFO - Closing all database connections...
+2025-07-23 07:11:24,393 - INFO - Closing all database connections...
+2025-07-23 07:11:24,393 - INFO - Closed 0 connections for current thread
+2025-07-23 07:11:24,393 - INFO - Closed 0 connections for current thread
+2025-07-23 07:11:24,393 - INFO - ✅ Thread safety test passed
+2025-07-23 07:11:24,393 - INFO - Closing all database connections...
+2025-07-23 07:11:24,393 - INFO - Closed 0 connections for current thread
+2025-07-23 07:11:24,394 - INFO - 🚀 Running Team D: Organization Management
+2025-07-23 07:11:24,394 - INFO - Loaded roles from team_d_roles.json.
+2025-07-23 07:11:24,394 - INFO - Organization Manager initialized.
+2025-07-23 07:11:24,394 - WARNING - Role 'team_lead' already exists.
+2025-07-23 07:11:24,394 - WARNING - Role 'developer' already exists.
+2025-07-23 07:11:24,394 - WARNING - Role 'analyst' already exists.
+2025-07-23 07:11:24,394 - WARNING - Member 'Alice' is already in role 'team_lead'.
+2025-07-23 07:11:24,394 - WARNING - Member 'Bob' is already in role 'developer'.
+2025-07-23 07:11:24,394 - WARNING - Member 'Charlie' is already in role 'analyst'.
+2025-07-23 07:11:24,394 - WARNING - Member 'Diana' is already in role 'developer'.
+2025-07-23 07:11:24,394 - INFO - ✅ Team D completed successfully!
+2025-07-23 07:11:24,394 - INFO -    Created 3 organizational roles: team_lead, developer, analyst
+2025-07-23 07:11:24,394 - INFO - 🧪 Testing code standards...
+2025-07-23 07:11:24,396 - INFO - Initialized Code Standards Checker for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:11:24,396 - INFO - Standards: 80 chars, 15.0% comments, 300 lines max
+2025-07-23 07:11:24,396 - INFO - 🔍 Checking repository code standards...
+2025-07-23 07:11:24,475 - INFO - Found 212 Python files to analyze
+2025-07-23 07:11:24,824 - INFO - ✅ Code standards analysis complete
+2025-07-23 07:11:24,824 - INFO -    Overall compliance: 20.3%
+2025-07-23 07:11:24,824 - INFO -    Compliant files: 43/212
+2025-07-23 07:11:24,824 - INFO -    Code standards: 20.3% compliant
+2025-07-23 07:11:24,824 - INFO - 🧪 Running System Integration Test
+2025-07-23 07:11:24,824 - INFO -    Testing application startup...
+2025-07-23 07:11:25,204 - INFO -    Testing database connectivity...
+2025-07-23 07:11:25,687 - INFO -    Testing HTML rendering...
+2025-07-23 07:11:25,836 - INFO -    Testing core modules...
+2025-07-23 07:11:27,392 - ERROR - ❌ Core module core.algorithms failed: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import core.algorithms; print(f"✅ core.algorithms imports")
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/algorithms/__init__.py", line 27, in <module>
+    from core.algorithms.geospatial_algorithms import (
+    ...<26 lines>...
+    )
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/algorithms/geospatial_algorithms.py", line 33, in <module>
+    from core.algorithms.distance_calculator import DistanceCalculator
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/algorithms/distance_calculator.py", line 27, in <module>
+    import scipy.spatial as spatial
+ModuleNotFoundError: No module named 'scipy'
+
+2025-07-23 07:11:27,392 - ERROR - ❌ System integration test failed
+2025-07-23 07:12:12,768 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:12:12,769 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:12:12,769 - INFO - ================================================================================
+2025-07-23 07:12:12,769 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:12:12,769 - INFO - 🧪 Testing application startup...
+2025-07-23 07:12:13,370 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:12:13,370 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:12:13,370 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:12:13,375 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:12:13,375 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:12:13,375 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:12:13,375 - INFO - Scanning for large files...
+2025-07-23 07:12:13,381 - INFO - Found 1 large files
+2025-07-23 07:12:13,381 - INFO - Analyzing file patterns...
+2025-07-23 07:12:13,381 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:12:13,381 - INFO - Generating large files report...
+2025-07-23 07:12:13,381 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071213.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071213.md
+2025-07-23 07:12:13,381 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071213.md
+2025-07-23 07:12:13,381 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:12:13,381 - INFO -    - Large files found: 1
+2025-07-23 07:12:13,381 - INFO -    - Total size: 2.37MB
+2025-07-23 07:12:13,381 - INFO -    - Files processed: 1
+2025-07-23 07:12:13,381 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:12:13,381 - INFO -    Found 1 large files
+2025-07-23 07:12:13,381 - INFO -    Total size: 2.37MB
+2025-07-23 07:12:13,381 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:12:13,381 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:12:13,381 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:12:13,385 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:12:13,385 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:12:13,386 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:12:13,387 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:13,387 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:12:13,387 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:13,387 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:12:13,387 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:13,387 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:12:13,387 - INFO -    Database operations tested with 1 records
+2025-07-23 07:12:13,387 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:12:13,387 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:12:13,387 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:12:13,387 - INFO - Created new connection for thread: 6107049984
+2025-07-23 07:12:13,388 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:12:13,388 - INFO - Created new connection for thread: 6123876352
+2025-07-23 07:12:13,388 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:12:13,388 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:13,388 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:12:13,388 - INFO - Closing all database connections...
+2025-07-23 07:12:13,388 - INFO - Closed 0 connections for current thread
+2025-07-23 07:12:13,388 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:13,388 - INFO - Closing all database connections...
+2025-07-23 07:12:13,388 - INFO - Created new connection for thread: 6157529088
+2025-07-23 07:12:13,388 - INFO - Created new connection for thread: 6140702720
+2025-07-23 07:12:13,388 - INFO - Created new connection for thread: 6174355456
+2025-07-23 07:12:13,388 - INFO - Closed 0 connections for current thread
+2025-07-23 07:12:13,388 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:13,388 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:13,388 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:13,388 - INFO - Closing all database connections...
+2025-07-23 07:12:13,388 - INFO - Closing all database connections...
+2025-07-23 07:12:13,388 - INFO - Closing all database connections...
+2025-07-23 07:12:13,388 - INFO - Closed 0 connections for current thread
+2025-07-23 07:12:13,388 - INFO - Closed 0 connections for current thread
+2025-07-23 07:12:13,388 - INFO - Closed 0 connections for current thread
+2025-07-23 07:12:13,388 - INFO - ✅ Thread safety test passed
+2025-07-23 07:12:13,388 - INFO - Closing all database connections...
+2025-07-23 07:12:13,388 - INFO - Closed 0 connections for current thread
+2025-07-23 07:12:13,388 - INFO - 🚀 Running Team D: Organization Management
+2025-07-23 07:12:13,389 - INFO - Loaded roles from team_d_roles.json.
+2025-07-23 07:12:13,389 - INFO - Organization Manager initialized.
+2025-07-23 07:12:13,389 - WARNING - Role 'team_lead' already exists.
+2025-07-23 07:12:13,389 - WARNING - Role 'developer' already exists.
+2025-07-23 07:12:13,389 - WARNING - Role 'analyst' already exists.
+2025-07-23 07:12:13,389 - WARNING - Member 'Alice' is already in role 'team_lead'.
+2025-07-23 07:12:13,389 - WARNING - Member 'Bob' is already in role 'developer'.
+2025-07-23 07:12:13,389 - WARNING - Member 'Charlie' is already in role 'analyst'.
+2025-07-23 07:12:13,389 - WARNING - Member 'Diana' is already in role 'developer'.
+2025-07-23 07:12:13,389 - INFO - ✅ Team D completed successfully!
+2025-07-23 07:12:13,389 - INFO -    Created 3 organizational roles: team_lead, developer, analyst
+2025-07-23 07:12:13,389 - INFO - 🧪 Testing code standards...
+2025-07-23 07:12:13,391 - INFO - Initialized Code Standards Checker for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:12:13,391 - INFO - Standards: 80 chars, 15.0% comments, 300 lines max
+2025-07-23 07:12:13,391 - INFO - 🔍 Checking repository code standards...
+2025-07-23 07:12:13,477 - INFO - Found 212 Python files to analyze
+2025-07-23 07:12:13,854 - INFO - ✅ Code standards analysis complete
+2025-07-23 07:12:13,854 - INFO -    Overall compliance: 20.3%
+2025-07-23 07:12:13,854 - INFO -    Compliant files: 43/212
+2025-07-23 07:12:13,855 - INFO -    Code standards: 20.3% compliant
+2025-07-23 07:12:13,855 - INFO - 🧪 Running System Integration Test
+2025-07-23 07:12:13,855 - INFO -    Testing application startup...
+2025-07-23 07:12:14,227 - INFO -    Testing database connectivity...
+2025-07-23 07:12:14,734 - INFO -    Testing HTML rendering...
+2025-07-23 07:12:14,891 - INFO -    Testing core modules...
+2025-07-23 07:12:21,724 - ERROR - ❌ Core module core.algorithms failed: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import core.algorithms; print(f"✅ core.algorithms imports")
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/algorithms/__init__.py", line 27, in <module>
+    from core.algorithms.geospatial_algorithms import (
+    ...<26 lines>...
+    )
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/algorithms/geospatial_algorithms.py", line 36, in <module>
+    from core.algorithms.hexagonal_grid import HexagonalGrid
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/algorithms/hexagonal_grid.py", line 28, in <module>
+    import h3
+ModuleNotFoundError: No module named 'h3'
+
+2025-07-23 07:12:21,725 - ERROR - ❌ System integration test failed
+2025-07-23 07:12:44,614 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:12:44,614 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:12:44,614 - INFO - ================================================================================
+2025-07-23 07:12:44,614 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:12:44,614 - INFO - 🧪 Testing application startup...
+2025-07-23 07:12:45,254 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:12:45,254 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:12:45,254 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:12:45,260 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:12:45,260 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:12:45,260 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:12:45,260 - INFO - Scanning for large files...
+2025-07-23 07:12:45,266 - INFO - Found 1 large files
+2025-07-23 07:12:45,266 - INFO - Analyzing file patterns...
+2025-07-23 07:12:45,266 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:12:45,266 - INFO - Generating large files report...
+2025-07-23 07:12:45,266 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071245.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071245.md
+2025-07-23 07:12:45,266 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_071245.md
+2025-07-23 07:12:45,266 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:12:45,266 - INFO -    - Large files found: 1
+2025-07-23 07:12:45,267 - INFO -    - Total size: 2.37MB
+2025-07-23 07:12:45,267 - INFO -    - Files processed: 1
+2025-07-23 07:12:45,267 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:12:45,267 - INFO -    Found 1 large files
+2025-07-23 07:12:45,267 - INFO -    Total size: 2.37MB
+2025-07-23 07:12:45,267 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:12:45,267 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:12:45,267 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:12:45,271 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:12:45,271 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:12:45,272 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:12:45,272 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:45,272 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:12:45,273 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:45,273 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:12:45,273 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:45,273 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:12:45,273 - INFO -    Database operations tested with 1 records
+2025-07-23 07:12:45,273 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:12:45,273 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:12:45,273 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:12:45,273 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:12:45,273 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:12:45,273 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:12:45,273 - INFO - Created new connection for thread: 6151843840
+2025-07-23 07:12:45,273 - INFO - Created new connection for thread: 6168670208
+2025-07-23 07:12:45,273 - INFO - Created new connection for thread: 6185496576
+2025-07-23 07:12:45,273 - INFO - Created new connection for thread: 6202322944
+2025-07-23 07:12:45,273 - INFO - Created new connection for thread: 6219149312
+2025-07-23 07:12:45,273 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:45,273 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:45,273 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:45,273 - INFO - Closing all database connections...
+2025-07-23 07:12:45,273 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:45,273 - INFO - Closing all database connections...
+2025-07-23 07:12:45,273 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:12:45,273 - INFO - Closing all database connections...
+2025-07-23 07:12:45,273 - INFO - Closed 0 connections for current thread
+2025-07-23 07:12:45,273 - INFO - Closing all database connections...
+2025-07-23 07:12:45,273 - INFO - Closed 0 connections for current thread
+2025-07-23 07:12:45,274 - INFO - Closing all database connections...
+2025-07-23 07:12:45,274 - INFO - Closed 0 connections for current thread
+2025-07-23 07:12:45,274 - INFO - Closed 0 connections for current thread
+2025-07-23 07:12:45,274 - INFO - Closed 0 connections for current thread
+2025-07-23 07:12:45,274 - INFO - ✅ Thread safety test passed
+2025-07-23 07:12:45,274 - INFO - Closing all database connections...
+2025-07-23 07:12:45,274 - INFO - Closed 0 connections for current thread
+2025-07-23 07:12:45,274 - INFO - 🚀 Running Team D: Organization Management
+2025-07-23 07:12:45,275 - INFO - Loaded roles from team_d_roles.json.
+2025-07-23 07:12:45,275 - INFO - Organization Manager initialized.
+2025-07-23 07:12:45,275 - WARNING - Role 'team_lead' already exists.
+2025-07-23 07:12:45,275 - WARNING - Role 'developer' already exists.
+2025-07-23 07:12:45,275 - WARNING - Role 'analyst' already exists.
+2025-07-23 07:12:45,275 - WARNING - Member 'Alice' is already in role 'team_lead'.
+2025-07-23 07:12:45,275 - WARNING - Member 'Bob' is already in role 'developer'.
+2025-07-23 07:12:45,275 - WARNING - Member 'Charlie' is already in role 'analyst'.
+2025-07-23 07:12:45,275 - WARNING - Member 'Diana' is already in role 'developer'.
+2025-07-23 07:12:45,275 - INFO - ✅ Team D completed successfully!
+2025-07-23 07:12:45,275 - INFO -    Created 3 organizational roles: team_lead, developer, analyst
+2025-07-23 07:12:45,275 - INFO - 🧪 Testing code standards...
+2025-07-23 07:12:45,276 - INFO - Initialized Code Standards Checker for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:12:45,276 - INFO - Standards: 80 chars, 15.0% comments, 300 lines max
+2025-07-23 07:12:45,276 - INFO - 🔍 Checking repository code standards...
+2025-07-23 07:12:45,365 - INFO - Found 212 Python files to analyze
+2025-07-23 07:12:45,742 - INFO - ✅ Code standards analysis complete
+2025-07-23 07:12:45,743 - INFO -    Overall compliance: 20.3%
+2025-07-23 07:12:45,743 - INFO -    Compliant files: 43/212
+2025-07-23 07:12:45,743 - INFO -    Code standards: 20.3% compliant
+2025-07-23 07:12:45,743 - INFO - 🧪 Running System Integration Test
+2025-07-23 07:12:45,743 - INFO -    Testing application startup...
+2025-07-23 07:12:46,126 - INFO -    Testing database connectivity...
+2025-07-23 07:12:46,618 - INFO -    Testing HTML rendering...
+2025-07-23 07:12:46,767 - INFO -    Testing core modules...
+2025-07-23 07:12:49,330 - ERROR - ❌ Core module core.algorithms failed: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import core.algorithms; print(f"✅ core.algorithms imports")
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/algorithms/__init__.py", line 27, in <module>
+    from core.algorithms.geospatial_algorithms import (
+    ...<26 lines>...
+    )
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/algorithms/geospatial_algorithms.py", line 39, in <module>
+    from core.algorithms.spatial_join import SpatialJoin
+  File "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/core/algorithms/spatial_join.py", line 30, in <module>
+    from rtree import index
+ModuleNotFoundError: No module named 'rtree'
+
+2025-07-23 07:12:49,330 - ERROR - ❌ System integration test failed
+2025-07-23 07:20:59,782 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:20:59,783 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:20:59,783 - INFO - ================================================================================
+2025-07-23 07:20:59,783 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:20:59,783 - INFO - 🧪 Testing application startup...
+2025-07-23 07:21:00,416 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:21:00,417 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:21:00,417 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:21:00,423 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:21:00,423 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:21:00,423 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:21:00,423 - INFO - Scanning for large files...
+2025-07-23 07:21:00,428 - INFO - Found 1 large files
+2025-07-23 07:21:00,428 - INFO - Analyzing file patterns...
+2025-07-23 07:21:00,428 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:21:00,429 - INFO - Generating large files report...
+2025-07-23 07:21:00,429 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_072100.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_072100.md
+2025-07-23 07:21:00,429 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_072100.md
+2025-07-23 07:21:00,429 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:21:00,429 - INFO -    - Large files found: 1
+2025-07-23 07:21:00,429 - INFO -    - Total size: 2.37MB
+2025-07-23 07:21:00,429 - INFO -    - Files processed: 1
+2025-07-23 07:21:00,429 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:21:00,429 - INFO -    Found 1 large files
+2025-07-23 07:21:00,429 - INFO -    Total size: 2.37MB
+2025-07-23 07:21:00,429 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:21:00,429 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:21:00,429 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:21:00,433 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:21:00,433 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:21:00,434 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:21:00,435 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:21:00,435 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:21:00,435 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:21:00,435 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:21:00,435 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:21:00,435 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:21:00,435 - INFO -    Database operations tested with 1 records
+2025-07-23 07:21:00,435 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:21:00,435 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:21:00,435 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:21:00,435 - INFO - Created new connection for thread: 6146437120
+2025-07-23 07:21:00,435 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:21:00,435 - INFO - Created new connection for thread: 6163263488
+2025-07-23 07:21:00,435 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:21:00,435 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:21:00,435 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:21:00,436 - INFO - Closing all database connections...
+2025-07-23 07:21:00,436 - INFO - Created new connection for thread: 6180089856
+2025-07-23 07:21:00,436 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:21:00,436 - INFO - Created new connection for thread: 6196916224
+2025-07-23 07:21:00,436 - INFO - Closed 0 connections for current thread
+2025-07-23 07:21:00,436 - INFO - Created new connection for thread: 6213742592
+2025-07-23 07:21:00,436 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:21:00,436 - INFO - Closing all database connections...
+2025-07-23 07:21:00,436 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:21:00,436 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:21:00,436 - INFO - Closing all database connections...
+2025-07-23 07:21:00,436 - INFO - Closed 0 connections for current thread
+2025-07-23 07:21:00,436 - INFO - Closing all database connections...
+2025-07-23 07:21:00,436 - INFO - Closing all database connections...
+2025-07-23 07:21:00,436 - INFO - Closed 0 connections for current thread
+2025-07-23 07:21:00,436 - INFO - Closed 0 connections for current thread
+2025-07-23 07:21:00,436 - INFO - Closed 0 connections for current thread
+2025-07-23 07:21:00,436 - INFO - ✅ Thread safety test passed
+2025-07-23 07:21:00,436 - INFO - Closing all database connections...
+2025-07-23 07:21:00,436 - INFO - Closed 0 connections for current thread
+2025-07-23 07:21:00,436 - INFO - 🚀 Running Team D: Organization Management
+2025-07-23 07:21:00,437 - INFO - Loaded roles from team_d_roles.json.
+2025-07-23 07:21:00,437 - INFO - Organization Manager initialized.
+2025-07-23 07:21:00,437 - WARNING - Role 'team_lead' already exists.
+2025-07-23 07:21:00,437 - WARNING - Role 'developer' already exists.
+2025-07-23 07:21:00,437 - WARNING - Role 'analyst' already exists.
+2025-07-23 07:21:00,437 - WARNING - Member 'Alice' is already in role 'team_lead'.
+2025-07-23 07:21:00,437 - WARNING - Member 'Bob' is already in role 'developer'.
+2025-07-23 07:21:00,437 - WARNING - Member 'Charlie' is already in role 'analyst'.
+2025-07-23 07:21:00,437 - WARNING - Member 'Diana' is already in role 'developer'.
+2025-07-23 07:21:00,437 - INFO - ✅ Team D completed successfully!
+2025-07-23 07:21:00,437 - INFO -    Created 3 organizational roles: team_lead, developer, analyst
+2025-07-23 07:21:00,437 - INFO - 🧪 Testing code standards...
+2025-07-23 07:21:00,439 - INFO - Initialized Code Standards Checker for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:21:00,439 - INFO - Standards: 80 chars, 15.0% comments, 300 lines max
+2025-07-23 07:21:00,439 - INFO - 🔍 Checking repository code standards...
+2025-07-23 07:21:00,524 - INFO - Found 212 Python files to analyze
+2025-07-23 07:21:00,895 - INFO - ✅ Code standards analysis complete
+2025-07-23 07:21:00,895 - INFO -    Overall compliance: 20.3%
+2025-07-23 07:21:00,895 - INFO -    Compliant files: 43/212
+2025-07-23 07:21:00,895 - INFO -    Code standards: 20.3% compliant
+2025-07-23 07:21:00,895 - INFO - 🧪 Running System Integration Test
+2025-07-23 07:21:00,895 - INFO -    Testing application startup...
+2025-07-23 07:21:01,266 - INFO -    Testing database connectivity...
+2025-07-23 07:21:01,761 - INFO -    Testing HTML rendering...
+2025-07-23 07:21:01,912 - INFO -    Testing core modules...
+2025-07-23 07:21:07,049 - INFO - ✅ System integration test passed
+2025-07-23 07:21:07,049 - INFO - 📊 Generating Final Report
+2025-07-23 07:21:07,061 - INFO - 📄 Final report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/team_execution_report.json
+2025-07-23 07:21:07,061 - INFO - ================================================================================
+2025-07-23 07:21:07,061 - INFO - 🎉 ALL TEAMS COMPLETED SUCCESSFULLY!
+2025-07-23 07:21:07,061 - INFO - 📊 Execution time: 7.27 seconds
+2025-07-23 07:21:07,061 - INFO - ✅ Teams completed: 4/4
+2025-07-23 07:21:07,061 - INFO - 🚀 System is ready for analysis and production deployment
+2025-07-23 07:41:48,247 - INFO - Initialized Team Executor for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:41:48,247 - INFO - 🎯 Starting Complete Team Execution
+2025-07-23 07:41:48,247 - INFO - ================================================================================
+2025-07-23 07:41:48,247 - INFO - 🔍 Verifying Team A completion...
+2025-07-23 07:41:48,247 - INFO - 🧪 Testing application startup...
+2025-07-23 07:41:49,020 - INFO - ✅ Team A verification passed - application starts successfully
+2025-07-23 07:41:49,020 - INFO - ✅ Team A verification passed - proceeding with remaining teams
+2025-07-23 07:41:49,020 - INFO - 🚀 Running Team B: Large Files Analysis
+2025-07-23 07:41:49,026 - INFO - Initialized Large Files Manager for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:41:49,026 - INFO - Size threshold: 1MB (1048576 bytes)
+2025-07-23 07:41:49,026 - INFO - 🚀 Starting Team B Large Files Analysis...
+2025-07-23 07:41:49,026 - INFO - Scanning for large files...
+2025-07-23 07:41:49,032 - INFO - Found 1 large files
+2025-07-23 07:41:49,032 - INFO - Analyzing file patterns...
+2025-07-23 07:41:49,032 - INFO - Optimizing files (dry_run=True)...
+2025-07-23 07:41:49,032 - INFO - Generating large files report...
+2025-07-23 07:41:49,032 - INFO - Reports generated: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_074149.json, /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_074149.md
+2025-07-23 07:41:49,032 - INFO - 📊 Analysis complete. Report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_074149.md
+2025-07-23 07:41:49,032 - INFO - 🎯 Team B Large Files Summary:
+2025-07-23 07:41:49,032 - INFO -    - Large files found: 1
+2025-07-23 07:41:49,032 - INFO -    - Total size: 2.37MB
+2025-07-23 07:41:49,032 - INFO -    - Files processed: 1
+2025-07-23 07:41:49,032 - INFO - ✅ Team B completed successfully!
+2025-07-23 07:41:49,032 - INFO -    Found 1 large files
+2025-07-23 07:41:49,032 - INFO -    Total size: 2.37MB
+2025-07-23 07:41:49,032 - WARNING - ⚠️ Critical large files found:
+2025-07-23 07:41:49,032 - WARNING -    handoff_package/additional_resources/nyxtrace_project.zip: 2.37MB
+2025-07-23 07:41:49,032 - INFO - 🚀 Running Team C: Database Management
+2025-07-23 07:41:49,058 - INFO - Initialized Database Manager for: test_nyx_trace.db
+2025-07-23 07:41:49,058 - INFO - Executing query: CREATE TABLE IF NOT EXISTS team_c_test (id INTEGER PRIMARY KEY, name TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)
+2025-07-23 07:41:49,060 - INFO - Created new connection for thread: 8627658496
+2025-07-23 07:41:49,060 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:41:49,060 - INFO - Executing query: INSERT INTO team_c_test (name) VALUES (?)
+2025-07-23 07:41:49,061 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:41:49,061 - INFO - Executing query: SELECT COUNT(*) as count FROM team_c_test
+2025-07-23 07:41:49,061 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:41:49,061 - INFO - ✅ Team C completed successfully!
+2025-07-23 07:41:49,061 - INFO -    Database operations tested with 1 records
+2025-07-23 07:41:49,061 - INFO - 🧪 Testing thread safety...
+2025-07-23 07:41:49,061 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:41:49,061 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:41:49,061 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:41:49,061 - INFO - Created new connection for thread: 6186823680
+2025-07-23 07:41:49,061 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:41:49,061 - INFO - Created new connection for thread: 6203650048
+2025-07-23 07:41:49,061 - INFO - Created new connection for thread: 6220476416
+2025-07-23 07:41:49,061 - INFO - Executing query: SELECT 1 as test
+2025-07-23 07:41:49,061 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:41:49,061 - INFO - Created new connection for thread: 6237302784
+2025-07-23 07:41:49,061 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:41:49,061 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:41:49,061 - INFO - Closing all database connections...
+2025-07-23 07:41:49,061 - INFO - Created new connection for thread: 6254129152
+2025-07-23 07:41:49,061 - INFO - Closing all database connections...
+2025-07-23 07:41:49,061 - INFO - Closing all database connections...
+2025-07-23 07:41:49,061 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:41:49,061 - INFO - Closed 0 connections for current thread
+2025-07-23 07:41:49,061 - INFO - Closed 0 connections for current thread
+2025-07-23 07:41:49,061 - INFO - Query executed successfully on attempt 1
+2025-07-23 07:41:49,061 - INFO - Closed 0 connections for current thread
+2025-07-23 07:41:49,061 - INFO - Closing all database connections...
+2025-07-23 07:41:49,062 - INFO - Closing all database connections...
+2025-07-23 07:41:49,062 - INFO - Closed 0 connections for current thread
+2025-07-23 07:41:49,062 - INFO - Closed 0 connections for current thread
+2025-07-23 07:41:49,062 - INFO - ✅ Thread safety test passed
+2025-07-23 07:41:49,062 - INFO - Closing all database connections...
+2025-07-23 07:41:49,062 - INFO - Closed 0 connections for current thread
+2025-07-23 07:41:49,062 - INFO - 🚀 Running Team D: Organization Management
+2025-07-23 07:41:49,063 - INFO - Loaded roles from team_d_roles.json.
+2025-07-23 07:41:49,063 - INFO - Organization Manager initialized.
+2025-07-23 07:41:49,063 - WARNING - Role 'team_lead' already exists.
+2025-07-23 07:41:49,063 - WARNING - Role 'developer' already exists.
+2025-07-23 07:41:49,063 - WARNING - Role 'analyst' already exists.
+2025-07-23 07:41:49,063 - WARNING - Member 'Alice' is already in role 'team_lead'.
+2025-07-23 07:41:49,063 - WARNING - Member 'Bob' is already in role 'developer'.
+2025-07-23 07:41:49,063 - WARNING - Member 'Charlie' is already in role 'analyst'.
+2025-07-23 07:41:49,063 - WARNING - Member 'Diana' is already in role 'developer'.
+2025-07-23 07:41:49,063 - INFO - ✅ Team D completed successfully!
+2025-07-23 07:41:49,063 - INFO -    Created 3 organizational roles: team_lead, developer, analyst
+2025-07-23 07:41:49,063 - INFO - 🧪 Testing enhanced code standards...
+2025-07-23 07:41:49,071 - INFO - 🚀 Initialized CTAS Code Standards for: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN
+2025-07-23 07:41:49,071 - INFO - 📊 Standards: 6 active standards
+2025-07-23 07:41:49,071 - INFO - 🔍 Starting comprehensive CTAS code standards analysis...
+2025-07-23 07:41:49,162 - INFO - 📁 Found 214 Python files to analyze
+2025-07-23 07:41:50,168 - INFO - ✅ Analysis complete in 1.10s
+2025-07-23 07:41:50,168 - INFO - 📊 Overall compliance: 53.3% (fair)
+2025-07-23 07:41:50,168 - INFO - 📈 Compliant files: 114/214
+2025-07-23 07:41:50,168 - INFO -    Code standards: 53.3% compliant (fair)
+2025-07-23 07:41:50,168 - INFO -    Files analyzed: 214
+2025-07-23 07:41:50,168 - INFO -    High priority files: 0
+2025-07-23 07:41:50,168 - INFO - 🧪 Running System Integration Test
+2025-07-23 07:41:50,168 - INFO -    Testing application startup...
+2025-07-23 07:41:50,559 - INFO -    Testing database connectivity...
+2025-07-23 07:41:51,052 - INFO -    Testing HTML rendering...
+2025-07-23 07:41:51,202 - INFO -    Testing core modules...
+2025-07-23 07:41:53,417 - INFO - ✅ System integration test passed
+2025-07-23 07:41:53,418 - INFO - 📊 Generating Final Report
+2025-07-23 07:41:53,418 - INFO - 📄 Final report saved to: /Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/team_execution_report.json
+2025-07-23 07:41:53,418 - INFO - ================================================================================
+2025-07-23 07:41:53,418 - INFO - 🎉 ALL TEAMS COMPLETED SUCCESSFULLY!
+2025-07-23 07:41:53,418 - INFO - 📊 Execution time: 5.17 seconds
+2025-07-23 07:41:53,418 - INFO - ✅ Teams completed: 4/4
+2025-07-23 07:41:53,418 - INFO - 🚀 System is ready for analysis and production deployment

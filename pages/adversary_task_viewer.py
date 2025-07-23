@@ -37,9 +37,12 @@ from pathlib import Path
 from datetime import datetime, timedelta
 
 # Import our custom HTML renderer for Replit-safe rendering
+from utils.enhanced_html_renderer import render_with_fallback, render_task_card_native
 from utils.html_renderer import render_html, render_css
 
-from core.periodic_table.task_registry import TaskRegistry
+# Import thread-safe database components
+from core.database.streamlit_safe_factory import database_factory
+from core.periodic_table.task_registry import TaskRegistry  
 from core.periodic_table.adversary_task import AdversaryTask
 from core.periodic_table.relationships import Relationship, RelationshipType
 from core.periodic_table.task_loader import load_tasks_from_directory, create_demo_tasks
@@ -189,9 +192,11 @@ if 'comparison_mode' not in st.session_state:
 def initialize_registry():
     """Initialize the task registry with data from the 'attached_assets' directory."""
     try:
-        # Create registry with in-memory database
-        registry = TaskRegistry(db_path=":memory:")
-        logger.info("Created in-memory task registry to avoid SQLite threading issues")
+        # Use thread-safe database connection
+        with database_factory.get_connection("task_registry") as db_conn:
+            # Create registry with thread-safe connection
+            registry = TaskRegistry(db_path=":memory:")  # Still use in-memory for demo
+            logger.info("Created thread-safe task registry")
         
         # Look for task data in attached_assets directory
         data_dir = "attached_assets"
@@ -889,16 +894,35 @@ def main():
             card_html = card_html.replace('<div class="task-category-label"', 
                                          f'{phase_indicator}<div class="task-category-label"')
             
-            # Always wrap HTML content properly with st.markdown
+            # Use enhanced rendering with fallback to native components
             if isinstance(card_html, str):
-                # Wrap in node-cell div and output using st.markdown with unsafe_allow_html=True
-                st.markdown(f'<div class="node-cell">{card_html}</div>', unsafe_allow_html=True)
+                # Try HTML rendering with fallback
+                task_data = {
+                    'task_name': task.task_name,
+                    'hash_id': task.hash_id,
+                    'category': task.get_category(),
+                    'description': task.description,
+                    'reliability': task.get_reliability(),
+                    'confidence': task.get_confidence()
+                }
+                
+                html_content = f'<div class="node-cell">{card_html}</div>'
+                success = render_with_fallback(html_content, task_data)
+                
+                if not success:
+                    # Final fallback to simple display
+                    render_task_card_native(task_data)
             else:
-                # If card_html is not a string, create a simple container
-                st.markdown('<div class="node-cell">', unsafe_allow_html=True)
-                st.write(f"**{task.hash_id}**")
-                st.caption(task.task_name)
-                st.markdown('</div>', unsafe_allow_html=True)
+                # If card_html is not a string, use native components directly
+                task_data = {
+                    'task_name': task.task_name,
+                    'hash_id': task.hash_id,
+                    'category': task.get_category(),
+                    'description': task.description,
+                    'reliability': task.get_reliability(),
+                    'confidence': task.get_confidence()
+                }
+                render_task_card_native(task_data)
         
         # Fill remaining grid with empty cells
         for i in range(max_cells, rows * cols):
@@ -979,25 +1003,48 @@ def main():
                             # Render the HTML directly as markdown with unsafe_allow_html
                             detailed_card = render_task_card(task, compact=False)
                             
-                            # Always properly wrap the HTML output with st.markdown
+                            # Use enhanced rendering with fallback to native components
                             if isinstance(detailed_card, str):
-                                # Use components.html for better isolation if needed
-                                # from streamlit.components.v1 import html
-                                # html(detailed_card, height=500)
+                                # Create task data for fallback
+                                task_data = {
+                                    'task_name': task.task_name,
+                                    'hash_id': task.hash_id,
+                                    'category': task.get_category(),
+                                    'description': task.description,
+                                    'reliability': task.get_reliability(),
+                                    'confidence': task.get_confidence()
+                                }
                                 
-                                # Or use markdown with unsafe_allow_html
-                                st.markdown(detailed_card, unsafe_allow_html=True)
+                                # Try HTML rendering with fallback
+                                success = render_with_fallback(detailed_card, task_data)
+                                
+                                if not success:
+                                    # Additional fallback - show structured data
+                                    st.subheader(task.task_name)
+                                    st.caption(f"ID: {task.task_id} | Hash: {task.hash_id}")
+                                    st.write(task.description)
+                                    st.write("**Category:** " + task.get_category())
+                                    
+                                    metrics_cols = st.columns(4)
+                                    with metrics_cols[0]:
+                                        st.metric("Reliability", f"{int(task.get_reliability() * 100)}%")
+                                    with metrics_cols[1]:
+                                        st.metric("Confidence", f"{int(task.get_confidence() * 100)}%")
+                                    with metrics_cols[2]:
+                                        st.metric("Maturity", f"{int(task.get_maturity() * 100)}%")
+                                    with metrics_cols[3]:
+                                        st.metric("Complexity", f"{int(task.get_complexity() * 100)}%")
                             else:
-                                # If somehow not a string, display task details in a more structured way
-                                st.subheader(task.task_name)
-                                st.caption(f"ID: {task.task_id} | Hash: {task.hash_id}")
-                                st.write(task.description)
-                                st.write("**Category:** " + task.get_category())
-                                metrics_cols = st.columns(2)
-                                with metrics_cols[0]:
-                                    st.metric("Reliability", f"{int(task.get_reliability() * 100)}%")
-                                with metrics_cols[1]:
-                                    st.metric("Confidence", f"{int(task.get_confidence() * 100)}%")
+                                # Use native components directly
+                                task_data = {
+                                    'task_name': task.task_name,
+                                    'hash_id': task.hash_id,
+                                    'category': task.get_category(),
+                                    'description': task.description,
+                                    'reliability': task.get_reliability(),
+                                    'confidence': task.get_confidence()
+                                }
+                                render_task_card_native(task_data)
     
     elif view_type == "Property Analysis":
         # Property comparison

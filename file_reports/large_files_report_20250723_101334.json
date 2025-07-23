@@ -1,0 +1,907 @@
+{
+  "timestamp": "2025-07-23T10:13:34.902035",
+  "repository": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN",
+  "size_threshold_mb": 1.0,
+  "large_files": [
+    {
+      "path": "handoff_package/additional_resources/nyxtrace_project.zip",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/handoff_package/additional_resources/nyxtrace_project.zip",
+      "size_bytes": 2488538,
+      "size_mb": 2.37,
+      "extension": ".zip",
+      "modified": "2025-07-22T22:48:04.002711",
+      "hash": "c7a8cd38f7246a20"
+    },
+    {
+      "path": "target/release/deps/libsyn-a496eab68111edc1.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libsyn-a496eab68111edc1.rlib",
+      "size_bytes": 4955456,
+      "size_mb": 4.73,
+      "extension": ".rlib",
+      "modified": "2025-07-23T08:32:53.717929",
+      "hash": "2c0e526430786026"
+    },
+    {
+      "path": "target/release/deps/libnum_traits-9136c7a49b81cc36.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libnum_traits-9136c7a49b81cc36.rmeta",
+      "size_bytes": 1642860,
+      "size_mb": 1.57,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T08:32:53.341446",
+      "hash": "070958c62ed27639"
+    },
+    {
+      "path": "target/release/deps/libserde-889ebec3eedd319e.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libserde-889ebec3eedd319e.rlib",
+      "size_bytes": 5452392,
+      "size_mb": 5.2,
+      "extension": ".rlib",
+      "modified": "2025-07-23T08:32:55.546841",
+      "hash": "df011e385fe7950a"
+    },
+    {
+      "path": "target/release/deps/liblibc-f3dd05584fbfa0e5.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/liblibc-f3dd05584fbfa0e5.rlib",
+      "size_bytes": 1854440,
+      "size_mb": 1.77,
+      "extension": ".rlib",
+      "modified": "2025-07-23T08:32:53.103644",
+      "hash": "a1cdac14f09997b7"
+    },
+    {
+      "path": "target/release/deps/libserde_json-5596157c10519ede.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libserde_json-5596157c10519ede.rmeta",
+      "size_bytes": 1578354,
+      "size_mb": 1.51,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T08:32:55.834468",
+      "hash": "601fcb8ee3119817"
+    },
+    {
+      "path": "target/release/deps/libaho_corasick-bfbde9b5ce593e1f.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libaho_corasick-bfbde9b5ce593e1f.rmeta",
+      "size_bytes": 1628083,
+      "size_mb": 1.55,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T08:32:52.303485",
+      "hash": "2295b124d41964c4"
+    },
+    {
+      "path": "target/release/deps/libregex_syntax-91fb9b0b2d38a20b.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libregex_syntax-91fb9b0b2d38a20b.rlib",
+      "size_bytes": 6657256,
+      "size_mb": 6.35,
+      "extension": ".rlib",
+      "modified": "2025-07-23T08:32:53.668756",
+      "hash": "4c6653ffa98d6556"
+    },
+    {
+      "path": "target/release/deps/libtypenum-20444503d001c19a.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libtypenum-20444503d001c19a.rlib",
+      "size_bytes": 2146920,
+      "size_mb": 2.05,
+      "extension": ".rlib",
+      "modified": "2025-07-23T08:32:52.949050",
+      "hash": "9a4b6b8230fb5697"
+    },
+    {
+      "path": "target/release/deps/libregex_automata-9fb9020261bd48a6.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libregex_automata-9fb9020261bd48a6.rmeta",
+      "size_bytes": 3619502,
+      "size_mb": 3.45,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T08:32:53.351840",
+      "hash": "675496cf7e1256a8"
+    },
+    {
+      "path": "target/release/deps/libserde-889ebec3eedd319e.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libserde-889ebec3eedd319e.rmeta",
+      "size_bytes": 5343113,
+      "size_mb": 5.1,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T08:32:55.518998",
+      "hash": "bd7405d3d407a1ac"
+    },
+    {
+      "path": "target/release/deps/libnum_traits-9136c7a49b81cc36.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libnum_traits-9136c7a49b81cc36.rlib",
+      "size_bytes": 1666192,
+      "size_mb": 1.59,
+      "extension": ".rlib",
+      "modified": "2025-07-23T08:32:53.367226",
+      "hash": "d1f5beed108dd47d"
+    },
+    {
+      "path": "target/release/deps/libserde_json-5596157c10519ede.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libserde_json-5596157c10519ede.rlib",
+      "size_bytes": 1918192,
+      "size_mb": 1.83,
+      "extension": ".rlib",
+      "modified": "2025-07-23T08:32:56.205015",
+      "hash": "a9c951ae04453a98"
+    },
+    {
+      "path": "target/release/deps/libchrono-038f21e2109982d9.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libchrono-038f21e2109982d9.rmeta",
+      "size_bytes": 2471486,
+      "size_mb": 2.36,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T08:32:55.970784",
+      "hash": "11b68bed8765b176"
+    },
+    {
+      "path": "target/release/deps/libchrono-038f21e2109982d9.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libchrono-038f21e2109982d9.rlib",
+      "size_bytes": 2984216,
+      "size_mb": 2.85,
+      "extension": ".rlib",
+      "modified": "2025-07-23T08:32:56.599377",
+      "hash": "1fee92f1ea81a69f"
+    },
+    {
+      "path": "target/release/deps/libtypenum-20444503d001c19a.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libtypenum-20444503d001c19a.rmeta",
+      "size_bytes": 2144316,
+      "size_mb": 2.04,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T08:32:52.945064",
+      "hash": "963454fd8b0e913c"
+    },
+    {
+      "path": "target/release/deps/libsyn-a496eab68111edc1.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libsyn-a496eab68111edc1.rmeta",
+      "size_bytes": 2190343,
+      "size_mb": 2.09,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T08:32:53.631822",
+      "hash": "f6285559f01b0d98"
+    },
+    {
+      "path": "target/release/deps/liblibc-f3dd05584fbfa0e5.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/liblibc-f3dd05584fbfa0e5.rmeta",
+      "size_bytes": 1851862,
+      "size_mb": 1.77,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T08:32:53.098755",
+      "hash": "de74ab9ba751699b"
+    },
+    {
+      "path": "target/release/deps/libregex_automata-9fb9020261bd48a6.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libregex_automata-9fb9020261bd48a6.rlib",
+      "size_bytes": 5615208,
+      "size_mb": 5.36,
+      "extension": ".rlib",
+      "modified": "2025-07-23T08:32:55.424937",
+      "hash": "46db6a1e120777e5"
+    },
+    {
+      "path": "target/release/deps/libaho_corasick-bfbde9b5ce593e1f.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libaho_corasick-bfbde9b5ce593e1f.rlib",
+      "size_bytes": 2282640,
+      "size_mb": 2.18,
+      "extension": ".rlib",
+      "modified": "2025-07-23T08:32:53.063657",
+      "hash": "1a194983440cdd8d"
+    },
+    {
+      "path": "target/release/deps/libregex_syntax-91fb9b0b2d38a20b.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libregex_syntax-91fb9b0b2d38a20b.rmeta",
+      "size_bytes": 4758343,
+      "size_mb": 4.54,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T08:32:52.429065",
+      "hash": "670c35127913320d"
+    },
+    {
+      "path": "target/release/deps/libserde_derive-410db35a8efd4b65.dylib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libserde_derive-410db35a8efd4b65.dylib",
+      "size_bytes": 3298656,
+      "size_mb": 3.15,
+      "extension": ".dylib",
+      "modified": "2025-07-23T08:32:54.502552",
+      "hash": "647a1c58d48f5de9"
+    },
+    {
+      "path": "target/debug/incremental/ctas_scanner-0gtswnuxq2l4l/s-h9hdx959s4-03roclp-46msxcamn91g3h8x4qtunqh5h/dep-graph.bin",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/incremental/ctas_scanner-0gtswnuxq2l4l/s-h9hdx959s4-03roclp-46msxcamn91g3h8x4qtunqh5h/dep-graph.bin",
+      "size_bytes": 1336502,
+      "size_mb": 1.27,
+      "extension": ".bin",
+      "modified": "2025-07-23T07:55:52.300161",
+      "hash": "8c636af29f9821a9"
+    },
+    {
+      "path": "target/debug/deps/libsyn-ab4bfb7b03e7d67e.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libsyn-ab4bfb7b03e7d67e.rmeta",
+      "size_bytes": 2192919,
+      "size_mb": 2.09,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T07:55:50.016133",
+      "hash": "414513dd065984c3"
+    },
+    {
+      "path": "target/debug/deps/libregex_syntax-92d998fa046984fe.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libregex_syntax-92d998fa046984fe.rmeta",
+      "size_bytes": 4538873,
+      "size_mb": 4.33,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T07:55:48.667768",
+      "hash": "3361220652495b71"
+    },
+    {
+      "path": "target/debug/deps/libtypenum-10720cc0ed562e1a.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libtypenum-10720cc0ed562e1a.rlib",
+      "size_bytes": 2113576,
+      "size_mb": 2.02,
+      "extension": ".rlib",
+      "modified": "2025-07-23T07:55:49.352793",
+      "hash": "ee9ce3badbf37ce6"
+    },
+    {
+      "path": "target/debug/deps/libtypenum-10720cc0ed562e1a.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libtypenum-10720cc0ed562e1a.rmeta",
+      "size_bytes": 2112151,
+      "size_mb": 2.01,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T07:55:49.347079",
+      "hash": "40d4e381f9ded462"
+    },
+    {
+      "path": "target/debug/deps/liblibc-77151567e6a9e60f.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/liblibc-77151567e6a9e60f.rlib",
+      "size_bytes": 1832672,
+      "size_mb": 1.75,
+      "extension": ".rlib",
+      "modified": "2025-07-23T07:55:49.204567",
+      "hash": "0d1009cda8185966"
+    },
+    {
+      "path": "target/debug/deps/libchrono-8731840e12d7cda9.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libchrono-8731840e12d7cda9.rmeta",
+      "size_bytes": 2204843,
+      "size_mb": 2.1,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T07:55:52.144177",
+      "hash": "f425d209e2f0887d"
+    },
+    {
+      "path": "target/debug/deps/libserde-cffac557be22c8da.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libserde-cffac557be22c8da.rlib",
+      "size_bytes": 5434792,
+      "size_mb": 5.18,
+      "extension": ".rlib",
+      "modified": "2025-07-23T07:55:51.802012",
+      "hash": "9390d71538b2e2a0"
+    },
+    {
+      "path": "target/debug/deps/libsyn-ab4bfb7b03e7d67e.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libsyn-ab4bfb7b03e7d67e.rlib",
+      "size_bytes": 5039144,
+      "size_mb": 4.81,
+      "extension": ".rlib",
+      "modified": "2025-07-23T07:55:50.101505",
+      "hash": "b02f92a48051d6f0"
+    },
+    {
+      "path": "target/debug/deps/libchrono-8731840e12d7cda9.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libchrono-8731840e12d7cda9.rlib",
+      "size_bytes": 4765976,
+      "size_mb": 4.55,
+      "extension": ".rlib",
+      "modified": "2025-07-23T07:55:52.216461",
+      "hash": "a14c3fd1f14220b4"
+    },
+    {
+      "path": "target/debug/deps/libregex_automata-50145d08a21c9249.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libregex_automata-50145d08a21c9249.rmeta",
+      "size_bytes": 3181980,
+      "size_mb": 3.03,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T07:55:49.389293",
+      "hash": "22ce62e2dca7163f"
+    },
+    {
+      "path": "target/debug/deps/libregex_syntax-92d998fa046984fe.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libregex_syntax-92d998fa046984fe.rlib",
+      "size_bytes": 10747920,
+      "size_mb": 10.25,
+      "extension": ".rlib",
+      "modified": "2025-07-23T07:55:48.823298",
+      "hash": "34e2b75a3a32ad2a"
+    },
+    {
+      "path": "target/debug/deps/libserde_derive-fd2b8b762ff0009d.dylib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libserde_derive-fd2b8b762ff0009d.dylib",
+      "size_bytes": 3462008,
+      "size_mb": 3.3,
+      "extension": ".dylib",
+      "modified": "2025-07-23T07:55:50.825752",
+      "hash": "d3d79e89c3a4f7e0"
+    },
+    {
+      "path": "target/debug/deps/libnum_traits-2fb97524f9aa7450.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libnum_traits-2fb97524f9aa7450.rmeta",
+      "size_bytes": 1549384,
+      "size_mb": 1.48,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T07:55:49.011215",
+      "hash": "f6c913c52fc957ca"
+    },
+    {
+      "path": "target/debug/deps/libmemchr-a617db691370c511.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libmemchr-a617db691370c511.rlib",
+      "size_bytes": 1142504,
+      "size_mb": 1.09,
+      "extension": ".rlib",
+      "modified": "2025-07-23T07:55:48.229285",
+      "hash": "2eaa7fddaffdc9b8"
+    },
+    {
+      "path": "target/debug/deps/libserde_json-623feed8578b3431.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libserde_json-623feed8578b3431.rlib",
+      "size_bytes": 3426720,
+      "size_mb": 3.27,
+      "extension": ".rlib",
+      "modified": "2025-07-23T07:55:52.116565",
+      "hash": "8172f916cd0ea65f"
+    },
+    {
+      "path": "target/debug/deps/libserde_json-623feed8578b3431.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libserde_json-623feed8578b3431.rmeta",
+      "size_bytes": 1376986,
+      "size_mb": 1.31,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T07:55:52.035430",
+      "hash": "ed22a3dd93edc656"
+    },
+    {
+      "path": "target/debug/deps/libaho_corasick-1feeea2846bf9a54.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libaho_corasick-1feeea2846bf9a54.rlib",
+      "size_bytes": 6035040,
+      "size_mb": 5.76,
+      "extension": ".rlib",
+      "modified": "2025-07-23T07:55:48.708952",
+      "hash": "d9e7186fe844bfc2"
+    },
+    {
+      "path": "target/debug/deps/libregex_automata-50145d08a21c9249.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libregex_automata-50145d08a21c9249.rlib",
+      "size_bytes": 12180040,
+      "size_mb": 11.62,
+      "extension": ".rlib",
+      "modified": "2025-07-23T07:55:49.656013",
+      "hash": "071072b63a9f2a63"
+    },
+    {
+      "path": "target/debug/deps/libserde-cffac557be22c8da.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libserde-cffac557be22c8da.rmeta",
+      "size_bytes": 5147440,
+      "size_mb": 4.91,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T07:55:51.768536",
+      "hash": "4c09bc56daf801e6"
+    },
+    {
+      "path": "target/debug/deps/libregex-82c28dd0896a3ce4.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libregex-82c28dd0896a3ce4.rlib",
+      "size_bytes": 1302168,
+      "size_mb": 1.24,
+      "extension": ".rlib",
+      "modified": "2025-07-23T07:55:49.559866",
+      "hash": "a707d108bf7ab279"
+    },
+    {
+      "path": "target/debug/deps/libaho_corasick-1feeea2846bf9a54.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libaho_corasick-1feeea2846bf9a54.rmeta",
+      "size_bytes": 1463584,
+      "size_mb": 1.4,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T07:55:48.546972",
+      "hash": "e6af1c93e62f09db"
+    },
+    {
+      "path": "target/debug/deps/liblibc-77151567e6a9e60f.rmeta",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/liblibc-77151567e6a9e60f.rmeta",
+      "size_bytes": 1820802,
+      "size_mb": 1.74,
+      "extension": ".rmeta",
+      "modified": "2025-07-23T07:55:49.197942",
+      "hash": "1712d65302bccc22"
+    },
+    {
+      "path": "target/debug/deps/libnum_traits-2fb97524f9aa7450.rlib",
+      "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libnum_traits-2fb97524f9aa7450.rlib",
+      "size_bytes": 1667352,
+      "size_mb": 1.59,
+      "extension": ".rlib",
+      "modified": "2025-07-23T07:55:49.032155",
+      "hash": "8984d662bef01d8e"
+    }
+  ],
+  "analysis": {
+    "total_files": 46,
+    "total_size_bytes": 154623744,
+    "total_size_mb": 147.46,
+    "by_extension": {
+      ".rlib": {
+        "count": 22,
+        "total_size": 91220816,
+        "files": [
+          "target/release/deps/libsyn-a496eab68111edc1.rlib",
+          "target/release/deps/libserde-889ebec3eedd319e.rlib",
+          "target/release/deps/liblibc-f3dd05584fbfa0e5.rlib",
+          "target/release/deps/libregex_syntax-91fb9b0b2d38a20b.rlib",
+          "target/release/deps/libtypenum-20444503d001c19a.rlib",
+          "target/release/deps/libnum_traits-9136c7a49b81cc36.rlib",
+          "target/release/deps/libserde_json-5596157c10519ede.rlib",
+          "target/release/deps/libchrono-038f21e2109982d9.rlib",
+          "target/release/deps/libregex_automata-9fb9020261bd48a6.rlib",
+          "target/release/deps/libaho_corasick-bfbde9b5ce593e1f.rlib",
+          "target/debug/deps/libtypenum-10720cc0ed562e1a.rlib",
+          "target/debug/deps/liblibc-77151567e6a9e60f.rlib",
+          "target/debug/deps/libserde-cffac557be22c8da.rlib",
+          "target/debug/deps/libsyn-ab4bfb7b03e7d67e.rlib",
+          "target/debug/deps/libchrono-8731840e12d7cda9.rlib",
+          "target/debug/deps/libregex_syntax-92d998fa046984fe.rlib",
+          "target/debug/deps/libmemchr-a617db691370c511.rlib",
+          "target/debug/deps/libserde_json-623feed8578b3431.rlib",
+          "target/debug/deps/libaho_corasick-1feeea2846bf9a54.rlib",
+          "target/debug/deps/libregex_automata-50145d08a21c9249.rlib",
+          "target/debug/deps/libregex-82c28dd0896a3ce4.rlib",
+          "target/debug/deps/libnum_traits-2fb97524f9aa7450.rlib"
+        ]
+      },
+      ".rmeta": {
+        "count": 20,
+        "total_size": 52817224,
+        "files": [
+          "target/release/deps/libnum_traits-9136c7a49b81cc36.rmeta",
+          "target/release/deps/libserde_json-5596157c10519ede.rmeta",
+          "target/release/deps/libaho_corasick-bfbde9b5ce593e1f.rmeta",
+          "target/release/deps/libregex_automata-9fb9020261bd48a6.rmeta",
+          "target/release/deps/libserde-889ebec3eedd319e.rmeta",
+          "target/release/deps/libchrono-038f21e2109982d9.rmeta",
+          "target/release/deps/libtypenum-20444503d001c19a.rmeta",
+          "target/release/deps/libsyn-a496eab68111edc1.rmeta",
+          "target/release/deps/liblibc-f3dd05584fbfa0e5.rmeta",
+          "target/release/deps/libregex_syntax-91fb9b0b2d38a20b.rmeta",
+          "target/debug/deps/libsyn-ab4bfb7b03e7d67e.rmeta",
+          "target/debug/deps/libregex_syntax-92d998fa046984fe.rmeta",
+          "target/debug/deps/libtypenum-10720cc0ed562e1a.rmeta",
+          "target/debug/deps/libchrono-8731840e12d7cda9.rmeta",
+          "target/debug/deps/libregex_automata-50145d08a21c9249.rmeta",
+          "target/debug/deps/libnum_traits-2fb97524f9aa7450.rmeta",
+          "target/debug/deps/libserde_json-623feed8578b3431.rmeta",
+          "target/debug/deps/libserde-cffac557be22c8da.rmeta",
+          "target/debug/deps/libaho_corasick-1feeea2846bf9a54.rmeta",
+          "target/debug/deps/liblibc-77151567e6a9e60f.rmeta"
+        ]
+      },
+      ".dylib": {
+        "count": 2,
+        "total_size": 6760664,
+        "files": [
+          "target/release/deps/libserde_derive-410db35a8efd4b65.dylib",
+          "target/debug/deps/libserde_derive-fd2b8b762ff0009d.dylib"
+        ]
+      },
+      ".zip": {
+        "count": 1,
+        "total_size": 2488538,
+        "files": [
+          "handoff_package/additional_resources/nyxtrace_project.zip"
+        ]
+      },
+      ".bin": {
+        "count": 1,
+        "total_size": 1336502,
+        "files": [
+          "target/debug/incremental/ctas_scanner-0gtswnuxq2l4l/s-h9hdx959s4-03roclp-46msxcamn91g3h8x4qtunqh5h/dep-graph.bin"
+        ]
+      }
+    },
+    "by_directory": {
+      "target/debug/deps": {
+        "count": 23,
+        "total_size": 84738874,
+        "files": [
+          "target/debug/deps/libsyn-ab4bfb7b03e7d67e.rmeta",
+          "target/debug/deps/libregex_syntax-92d998fa046984fe.rmeta",
+          "target/debug/deps/libtypenum-10720cc0ed562e1a.rlib",
+          "target/debug/deps/libtypenum-10720cc0ed562e1a.rmeta",
+          "target/debug/deps/liblibc-77151567e6a9e60f.rlib",
+          "target/debug/deps/libchrono-8731840e12d7cda9.rmeta",
+          "target/debug/deps/libserde-cffac557be22c8da.rlib",
+          "target/debug/deps/libsyn-ab4bfb7b03e7d67e.rlib",
+          "target/debug/deps/libchrono-8731840e12d7cda9.rlib",
+          "target/debug/deps/libregex_automata-50145d08a21c9249.rmeta",
+          "target/debug/deps/libregex_syntax-92d998fa046984fe.rlib",
+          "target/debug/deps/libserde_derive-fd2b8b762ff0009d.dylib",
+          "target/debug/deps/libnum_traits-2fb97524f9aa7450.rmeta",
+          "target/debug/deps/libmemchr-a617db691370c511.rlib",
+          "target/debug/deps/libserde_json-623feed8578b3431.rlib",
+          "target/debug/deps/libserde_json-623feed8578b3431.rmeta",
+          "target/debug/deps/libaho_corasick-1feeea2846bf9a54.rlib",
+          "target/debug/deps/libregex_automata-50145d08a21c9249.rlib",
+          "target/debug/deps/libserde-cffac557be22c8da.rmeta",
+          "target/debug/deps/libregex-82c28dd0896a3ce4.rlib",
+          "target/debug/deps/libaho_corasick-1feeea2846bf9a54.rmeta",
+          "target/debug/deps/liblibc-77151567e6a9e60f.rmeta",
+          "target/debug/deps/libnum_traits-2fb97524f9aa7450.rlib"
+        ]
+      },
+      "target/release/deps": {
+        "count": 21,
+        "total_size": 66059830,
+        "files": [
+          "target/release/deps/libsyn-a496eab68111edc1.rlib",
+          "target/release/deps/libnum_traits-9136c7a49b81cc36.rmeta",
+          "target/release/deps/libserde-889ebec3eedd319e.rlib",
+          "target/release/deps/liblibc-f3dd05584fbfa0e5.rlib",
+          "target/release/deps/libserde_json-5596157c10519ede.rmeta",
+          "target/release/deps/libaho_corasick-bfbde9b5ce593e1f.rmeta",
+          "target/release/deps/libregex_syntax-91fb9b0b2d38a20b.rlib",
+          "target/release/deps/libtypenum-20444503d001c19a.rlib",
+          "target/release/deps/libregex_automata-9fb9020261bd48a6.rmeta",
+          "target/release/deps/libserde-889ebec3eedd319e.rmeta",
+          "target/release/deps/libnum_traits-9136c7a49b81cc36.rlib",
+          "target/release/deps/libserde_json-5596157c10519ede.rlib",
+          "target/release/deps/libchrono-038f21e2109982d9.rmeta",
+          "target/release/deps/libchrono-038f21e2109982d9.rlib",
+          "target/release/deps/libtypenum-20444503d001c19a.rmeta",
+          "target/release/deps/libsyn-a496eab68111edc1.rmeta",
+          "target/release/deps/liblibc-f3dd05584fbfa0e5.rmeta",
+          "target/release/deps/libregex_automata-9fb9020261bd48a6.rlib",
+          "target/release/deps/libaho_corasick-bfbde9b5ce593e1f.rlib",
+          "target/release/deps/libregex_syntax-91fb9b0b2d38a20b.rmeta",
+          "target/release/deps/libserde_derive-410db35a8efd4b65.dylib"
+        ]
+      },
+      "handoff_package/additional_resources": {
+        "count": 1,
+        "total_size": 2488538,
+        "files": [
+          "handoff_package/additional_resources/nyxtrace_project.zip"
+        ]
+      },
+      "target/debug/incremental/ctas_scanner-0gtswnuxq2l4l/s-h9hdx959s4-03roclp-46msxcamn91g3h8x4qtunqh5h": {
+        "count": 1,
+        "total_size": 1336502,
+        "files": [
+          "target/debug/incremental/ctas_scanner-0gtswnuxq2l4l/s-h9hdx959s4-03roclp-46msxcamn91g3h8x4qtunqh5h/dep-graph.bin"
+        ]
+      }
+    },
+    "largest_files": [
+      {
+        "path": "target/debug/deps/libregex_automata-50145d08a21c9249.rlib",
+        "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libregex_automata-50145d08a21c9249.rlib",
+        "size_bytes": 12180040,
+        "size_mb": 11.62,
+        "extension": ".rlib",
+        "modified": "2025-07-23T07:55:49.656013",
+        "hash": "071072b63a9f2a63"
+      },
+      {
+        "path": "target/debug/deps/libregex_syntax-92d998fa046984fe.rlib",
+        "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libregex_syntax-92d998fa046984fe.rlib",
+        "size_bytes": 10747920,
+        "size_mb": 10.25,
+        "extension": ".rlib",
+        "modified": "2025-07-23T07:55:48.823298",
+        "hash": "34e2b75a3a32ad2a"
+      },
+      {
+        "path": "target/release/deps/libregex_syntax-91fb9b0b2d38a20b.rlib",
+        "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libregex_syntax-91fb9b0b2d38a20b.rlib",
+        "size_bytes": 6657256,
+        "size_mb": 6.35,
+        "extension": ".rlib",
+        "modified": "2025-07-23T08:32:53.668756",
+        "hash": "4c6653ffa98d6556"
+      },
+      {
+        "path": "target/debug/deps/libaho_corasick-1feeea2846bf9a54.rlib",
+        "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libaho_corasick-1feeea2846bf9a54.rlib",
+        "size_bytes": 6035040,
+        "size_mb": 5.76,
+        "extension": ".rlib",
+        "modified": "2025-07-23T07:55:48.708952",
+        "hash": "d9e7186fe844bfc2"
+      },
+      {
+        "path": "target/release/deps/libregex_automata-9fb9020261bd48a6.rlib",
+        "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libregex_automata-9fb9020261bd48a6.rlib",
+        "size_bytes": 5615208,
+        "size_mb": 5.36,
+        "extension": ".rlib",
+        "modified": "2025-07-23T08:32:55.424937",
+        "hash": "46db6a1e120777e5"
+      },
+      {
+        "path": "target/release/deps/libserde-889ebec3eedd319e.rlib",
+        "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libserde-889ebec3eedd319e.rlib",
+        "size_bytes": 5452392,
+        "size_mb": 5.2,
+        "extension": ".rlib",
+        "modified": "2025-07-23T08:32:55.546841",
+        "hash": "df011e385fe7950a"
+      },
+      {
+        "path": "target/debug/deps/libserde-cffac557be22c8da.rlib",
+        "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libserde-cffac557be22c8da.rlib",
+        "size_bytes": 5434792,
+        "size_mb": 5.18,
+        "extension": ".rlib",
+        "modified": "2025-07-23T07:55:51.802012",
+        "hash": "9390d71538b2e2a0"
+      },
+      {
+        "path": "target/release/deps/libserde-889ebec3eedd319e.rmeta",
+        "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/release/deps/libserde-889ebec3eedd319e.rmeta",
+        "size_bytes": 5343113,
+        "size_mb": 5.1,
+        "extension": ".rmeta",
+        "modified": "2025-07-23T08:32:55.518998",
+        "hash": "bd7405d3d407a1ac"
+      },
+      {
+        "path": "target/debug/deps/libserde-cffac557be22c8da.rmeta",
+        "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libserde-cffac557be22c8da.rmeta",
+        "size_bytes": 5147440,
+        "size_mb": 4.91,
+        "extension": ".rmeta",
+        "modified": "2025-07-23T07:55:51.768536",
+        "hash": "4c09bc56daf801e6"
+      },
+      {
+        "path": "target/debug/deps/libsyn-ab4bfb7b03e7d67e.rlib",
+        "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/target/debug/deps/libsyn-ab4bfb7b03e7d67e.rlib",
+        "size_bytes": 5039144,
+        "size_mb": 4.81,
+        "extension": ".rlib",
+        "modified": "2025-07-23T07:55:50.101505",
+        "hash": "b02f92a48051d6f0"
+      }
+    ]
+  },
+  "optimization": {
+    "processed": 46,
+    "compressed": 0,
+    "archived": 0,
+    "deleted": 0,
+    "total_saved_bytes": 0,
+    "actions": [
+      {
+        "file": "handoff_package/additional_resources/nyxtrace_project.zip",
+        "action": "keep",
+        "original_size": 2488538
+      },
+      {
+        "file": "target/release/deps/libsyn-a496eab68111edc1.rlib",
+        "action": "keep",
+        "original_size": 4955456
+      },
+      {
+        "file": "target/release/deps/libnum_traits-9136c7a49b81cc36.rmeta",
+        "action": "keep",
+        "original_size": 1642860
+      },
+      {
+        "file": "target/release/deps/libserde-889ebec3eedd319e.rlib",
+        "action": "keep",
+        "original_size": 5452392
+      },
+      {
+        "file": "target/release/deps/liblibc-f3dd05584fbfa0e5.rlib",
+        "action": "keep",
+        "original_size": 1854440
+      },
+      {
+        "file": "target/release/deps/libserde_json-5596157c10519ede.rmeta",
+        "action": "keep",
+        "original_size": 1578354
+      },
+      {
+        "file": "target/release/deps/libaho_corasick-bfbde9b5ce593e1f.rmeta",
+        "action": "keep",
+        "original_size": 1628083
+      },
+      {
+        "file": "target/release/deps/libregex_syntax-91fb9b0b2d38a20b.rlib",
+        "action": "keep",
+        "original_size": 6657256
+      },
+      {
+        "file": "target/release/deps/libtypenum-20444503d001c19a.rlib",
+        "action": "keep",
+        "original_size": 2146920
+      },
+      {
+        "file": "target/release/deps/libregex_automata-9fb9020261bd48a6.rmeta",
+        "action": "keep",
+        "original_size": 3619502
+      },
+      {
+        "file": "target/release/deps/libserde-889ebec3eedd319e.rmeta",
+        "action": "keep",
+        "original_size": 5343113
+      },
+      {
+        "file": "target/release/deps/libnum_traits-9136c7a49b81cc36.rlib",
+        "action": "keep",
+        "original_size": 1666192
+      },
+      {
+        "file": "target/release/deps/libserde_json-5596157c10519ede.rlib",
+        "action": "keep",
+        "original_size": 1918192
+      },
+      {
+        "file": "target/release/deps/libchrono-038f21e2109982d9.rmeta",
+        "action": "keep",
+        "original_size": 2471486
+      },
+      {
+        "file": "target/release/deps/libchrono-038f21e2109982d9.rlib",
+        "action": "keep",
+        "original_size": 2984216
+      },
+      {
+        "file": "target/release/deps/libtypenum-20444503d001c19a.rmeta",
+        "action": "keep",
+        "original_size": 2144316
+      },
+      {
+        "file": "target/release/deps/libsyn-a496eab68111edc1.rmeta",
+        "action": "keep",
+        "original_size": 2190343
+      },
+      {
+        "file": "target/release/deps/liblibc-f3dd05584fbfa0e5.rmeta",
+        "action": "keep",
+        "original_size": 1851862
+      },
+      {
+        "file": "target/release/deps/libregex_automata-9fb9020261bd48a6.rlib",
+        "action": "keep",
+        "original_size": 5615208
+      },
+      {
+        "file": "target/release/deps/libaho_corasick-bfbde9b5ce593e1f.rlib",
+        "action": "keep",
+        "original_size": 2282640
+      },
+      {
+        "file": "target/release/deps/libregex_syntax-91fb9b0b2d38a20b.rmeta",
+        "action": "keep",
+        "original_size": 4758343
+      },
+      {
+        "file": "target/release/deps/libserde_derive-410db35a8efd4b65.dylib",
+        "action": "keep",
+        "original_size": 3298656
+      },
+      {
+        "file": "target/debug/incremental/ctas_scanner-0gtswnuxq2l4l/s-h9hdx959s4-03roclp-46msxcamn91g3h8x4qtunqh5h/dep-graph.bin",
+        "action": "keep",
+        "original_size": 1336502
+      },
+      {
+        "file": "target/debug/deps/libsyn-ab4bfb7b03e7d67e.rmeta",
+        "action": "keep",
+        "original_size": 2192919
+      },
+      {
+        "file": "target/debug/deps/libregex_syntax-92d998fa046984fe.rmeta",
+        "action": "keep",
+        "original_size": 4538873
+      },
+      {
+        "file": "target/debug/deps/libtypenum-10720cc0ed562e1a.rlib",
+        "action": "keep",
+        "original_size": 2113576
+      },
+      {
+        "file": "target/debug/deps/libtypenum-10720cc0ed562e1a.rmeta",
+        "action": "keep",
+        "original_size": 2112151
+      },
+      {
+        "file": "target/debug/deps/liblibc-77151567e6a9e60f.rlib",
+        "action": "keep",
+        "original_size": 1832672
+      },
+      {
+        "file": "target/debug/deps/libchrono-8731840e12d7cda9.rmeta",
+        "action": "keep",
+        "original_size": 2204843
+      },
+      {
+        "file": "target/debug/deps/libserde-cffac557be22c8da.rlib",
+        "action": "keep",
+        "original_size": 5434792
+      },
+      {
+        "file": "target/debug/deps/libsyn-ab4bfb7b03e7d67e.rlib",
+        "action": "keep",
+        "original_size": 5039144
+      },
+      {
+        "file": "target/debug/deps/libchrono-8731840e12d7cda9.rlib",
+        "action": "keep",
+        "original_size": 4765976
+      },
+      {
+        "file": "target/debug/deps/libregex_automata-50145d08a21c9249.rmeta",
+        "action": "keep",
+        "original_size": 3181980
+      },
+      {
+        "file": "target/debug/deps/libregex_syntax-92d998fa046984fe.rlib",
+        "action": "keep",
+        "original_size": 10747920
+      },
+      {
+        "file": "target/debug/deps/libserde_derive-fd2b8b762ff0009d.dylib",
+        "action": "keep",
+        "original_size": 3462008
+      },
+      {
+        "file": "target/debug/deps/libnum_traits-2fb97524f9aa7450.rmeta",
+        "action": "keep",
+        "original_size": 1549384
+      },
+      {
+        "file": "target/debug/deps/libmemchr-a617db691370c511.rlib",
+        "action": "keep",
+        "original_size": 1142504
+      },
+      {
+        "file": "target/debug/deps/libserde_json-623feed8578b3431.rlib",
+        "action": "keep",
+        "original_size": 3426720
+      },
+      {
+        "file": "target/debug/deps/libserde_json-623feed8578b3431.rmeta",
+        "action": "keep",
+        "original_size": 1376986
+      },
+      {
+        "file": "target/debug/deps/libaho_corasick-1feeea2846bf9a54.rlib",
+        "action": "keep",
+        "original_size": 6035040
+      },
+      {
+        "file": "target/debug/deps/libregex_automata-50145d08a21c9249.rlib",
+        "action": "keep",
+        "original_size": 12180040
+      },
+      {
+        "file": "target/debug/deps/libserde-cffac557be22c8da.rmeta",
+        "action": "keep",
+        "original_size": 5147440
+      },
+      {
+        "file": "target/debug/deps/libregex-82c28dd0896a3ce4.rlib",
+        "action": "keep",
+        "original_size": 1302168
+      },
+      {
+        "file": "target/debug/deps/libaho_corasick-1feeea2846bf9a54.rmeta",
+        "action": "keep",
+        "original_size": 1463584
+      },
+      {
+        "file": "target/debug/deps/liblibc-77151567e6a9e60f.rmeta",
+        "action": "keep",
+        "original_size": 1820802
+      },
+      {
+        "file": "target/debug/deps/libnum_traits-2fb97524f9aa7450.rlib",
+        "action": "keep",
+        "original_size": 1667352
+      }
+    ]
+  }
+}

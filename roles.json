@@ -1,0 +1,11 @@
+{
+  "admin": {
+    "permissions": [
+      "manage_users",
+      "manage_system"
+    ],
+    "members": [
+      "Alice"
+    ]
+  }
+}

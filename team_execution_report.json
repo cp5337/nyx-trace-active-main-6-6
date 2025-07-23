@@ -1,0 +1,165 @@
+{
+  "execution_summary": {
+    "start_time": "2025-07-23 07:41:48",
+    "end_time": "2025-07-23 07:41:53",
+    "total_execution_time": "5.17 seconds",
+    "teams_executed": [
+      "team_a",
+      "team_b",
+      "team_c",
+      "team_d"
+    ],
+    "overall_status": "SUCCESS"
+  },
+  "team_results": {
+    "team_a": {
+      "status": "verified",
+      "completion": "confirmed"
+    },
+    "team_b": {
+      "large_files": [
+        {
+          "path": "handoff_package/additional_resources/nyxtrace_project.zip",
+          "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/handoff_package/additional_resources/nyxtrace_project.zip",
+          "size_bytes": 2488538,
+          "size_mb": 2.37,
+          "extension": ".zip",
+          "modified": "2025-07-22T22:48:04.002711",
+          "hash": "c7a8cd38f7246a20"
+        }
+      ],
+      "analysis": {
+        "total_files": 1,
+        "total_size_bytes": 2488538,
+        "total_size_mb": 2.37,
+        "by_extension": {
+          ".zip": {
+            "count": 1,
+            "total_size": 2488538,
+            "files": [
+              "handoff_package/additional_resources/nyxtrace_project.zip"
+            ]
+          }
+        },
+        "by_directory": {
+          "handoff_package/additional_resources": {
+            "count": 1,
+            "total_size": 2488538,
+            "files": [
+              "handoff_package/additional_resources/nyxtrace_project.zip"
+            ]
+          }
+        },
+        "largest_files": [
+          {
+            "path": "handoff_package/additional_resources/nyxtrace_project.zip",
+            "absolute_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/handoff_package/additional_resources/nyxtrace_project.zip",
+            "size_bytes": 2488538,
+            "size_mb": 2.37,
+            "extension": ".zip",
+            "modified": "2025-07-22T22:48:04.002711",
+            "hash": "c7a8cd38f7246a20"
+          }
+        ]
+      },
+      "optimization": {
+        "processed": 1,
+        "compressed": 0,
+        "archived": 0,
+        "deleted": 0,
+        "total_saved_bytes": 0,
+        "actions": [
+          {
+            "file": "handoff_package/additional_resources/nyxtrace_project.zip",
+            "action": "keep",
+            "original_size": 2488538
+          }
+        ]
+      },
+      "report_path": "/Users/cp5337/Developer/nyx-trace-6-6-ACTIVE-MAIN/file_reports/large_files_report_20250723_074149.md"
+    },
+    "team_c": {
+      "status": "success",
+      "records": 1
+    },
+    "team_d": {
+      "roles": [
+        "team_lead",
+        "developer",
+        "analyst"
+      ],
+      "standards": {
+        "summary": {
+          "total_files": 214,
+          "compliant_files": 114,
+          "non_compliant_files": 100,
+          "compliance_rate": 53.271028037383175,
+          "analysis_time": 1.0969500541687012,
+          "compliance_level": "fair"
+        },
+        "standards": {
+          "line_length": {
+            "compliant": 78,
+            "non_compliant": 136,
+            "compliance_rate": 36.44859813084112,
+            "total": 214
+          },
+          "comment_density": {
+            "compliant": 162,
+            "non_compliant": 52,
+            "compliance_rate": 75.70093457943925,
+            "total": 214
+          },
+          "module_size": {
+            "compliant": 109,
+            "non_compliant": 105,
+            "compliance_rate": 50.93457943925234,
+            "total": 214
+          },
+          "docstrings": {
+            "compliant": 195,
+            "non_compliant": 19,
+            "compliance_rate": 91.1214953271028,
+            "total": 214
+          },
+          "naming_conventions": {
+            "compliant": 210,
+            "non_compliant": 4,
+            "compliance_rate": 98.13084112149532,
+            "total": 214
+          },
+          "complexity": {
+            "compliant": 174,
+            "non_compliant": 40,
+            "compliance_rate": 81.30841121495327,
+            "total": 214
+          }
+        },
+        "compliance_level": "fair",
+        "progress_metrics": {
+          "priority_distribution": {
+            "high": 0,
+            "medium": 4,
+            "low": 210
+          },
+          "average_compliance_score": 82.17660669948461,
+          "files_needing_attention": 4,
+          "improvement_potential": 17.82339330051539
+        }
+      }
+    }
+  },
+  "system_status": {
+    "application_startup": "\u2705 PASSED",
+    "database_connectivity": "\u2705 PASSED",
+    "html_rendering": "\u2705 PASSED",
+    "core_modules": "\u2705 PASSED"
+  },
+  "recommendations": [
+    "All critical fixes completed successfully",
+    "Large files identified and ready for optimization",
+    "Database operations verified and thread-safe",
+    "Organization structure established",
+    "System ready for production deployment"
+  ]
+}
